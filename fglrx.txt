@@ -1,1 +1,25 @@
 
+cp -> /opt
+
+sudo tar -xvf fglrx-install.qIcP5g-hd6xxx-support.tar.gz
+
+sudo -i
+
+service lightdm stop                   #or service gdm stop
+
+cd fglrx-install.qIcP5g
+
+./ati-installer.sh 15.302 --install --force
+
+aticonfig --initial
+
+service lightdm restart                #or service gdm restart
+
+
+
+
+
+
+
+
+
