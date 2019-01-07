@@ -22,3 +22,14 @@ FGLRX legacy HD 6XXX/7XXX support, (outside of AMDGPU, AMDGPU-PRO support)
 patched for 4.4,
 
 https://drive.google.com/open?id=1P0ruOAmVcjLXTM02hSiVXsl68NULzUeK
+
+
+
+
+
+
+
+
+(compiz-fusion-plugins-experimental       RPM only.,     since the experimental plugins are more widely available on deb based linux)
+
+https://drive.google.com/open?id=1Jo34N_tVUwOXMQxVPZ-MrIneTowOOG_Z
