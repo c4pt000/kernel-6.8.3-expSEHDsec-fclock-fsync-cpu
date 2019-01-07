@@ -13,3 +13,12 @@ modprobe hid_xpadneo
 .debs (untested)
 
 https://drive.google.com/open?id=1qrCRKJD_hb9o8zisQwzjfRxtsMwoAhmL
+
+
+
+
+
+FGLRX legacy HD 6XXX/7XXX support, (outside of AMDGPU, AMDGPU-PRO support)
+patched for 4.4,
+
+https://drive.google.com/open?id=1P0ruOAmVcjLXTM02hSiVXsl68NULzUeK
