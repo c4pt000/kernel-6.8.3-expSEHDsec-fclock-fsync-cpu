@@ -10,3 +10,6 @@ modprobe hid_xpadneo
 
 (support for xbox one wired controllers, possibly legacy xbox 360 wired controllers)
 
+.debs (untested)
+
+https://drive.google.com/open?id=1qrCRKJD_hb9o8zisQwzjfRxtsMwoAhmL
