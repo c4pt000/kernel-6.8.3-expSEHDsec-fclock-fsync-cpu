@@ -3,11 +3,11 @@ kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_MT7610Uwifi-41.x86_64
 
 same as before RENO for TCP instead of CUBIC, packet generator module, different IPSEC stacks, hardware events, different dyntick, kobject loading, prelimenary stack protection with RAM, different userspace protection from debugging, basic SMACK policies, SELINUX, no TOMOYO, no apparmor by default 
 
-# CONFIG_DEFAULT_SECURITY_SELINUX=y
-# CONFIG_SECURITY_SMACK=y
-# CONFIG_SECURITY_APPARMOR=y
-# CONFIG_SECURITY_TOMOYO is not set
-# CONFIG_DEFAULT_SECURITY_APPARMOR is not set
+* CONFIG_DEFAULT_SECURITY_SELINUX=y
+* CONFIG_SECURITY_SMACK=y
+* CONFIG_SECURITY_APPARMOR=y
+* CONFIG_SECURITY_TOMOYO is not set
+* CONFIG_DEFAULT_SECURITY_APPARMOR is not set
 
 RHEL/CentOS/Fedora based RPMS, based on kernel 4.4, for FGLRX graphics, and experimental security functions, moonLogo on boot with grub options, "vga=0x346", also Broadcom TIGON3 gigabit ethernet for hp class machines, and MT7610U usb wifi 802.11ac for wavlink mediatek devices (not 100% working as a kernel module seperate meditatek mt7610u drivers below),
 https://github.com/c4pt000/mt7610u_wifi_sta_v3002_dpo_20130916
