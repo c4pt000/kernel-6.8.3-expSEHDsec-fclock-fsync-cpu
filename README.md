@@ -18,7 +18,7 @@ modprobe hid_xpadneo
 
 
 
-
+rpms
 
 * https://drive.google.com/file/d/17y-jRLn5-agnmMLuyIaxqVAb8ASQ5ArP/view
 
