@@ -6,14 +6,14 @@ same as before RENO for TCP instead of CUBIC, packet generator module, different
 * CONFIG_DEFAULT_SECURITY_SELINUX=y
 * CONFIG_SECURITY_SMACK=y
 * CONFIG_SECURITY_APPARMOR=y
-* CONFIG_SECURITY_TOMOYO is not set
-* CONFIG_DEFAULT_SECURITY_APPARMOR is not set
+* --> CONFIG_SECURITY_TOMOYO is not set
+* --> CONFIG_DEFAULT_SECURITY_APPARMOR is not set
 
 for fglrx see FGLRX graphics support patched installer for 4.4
 
 * CONFIG_DRM_RADEON=m
 * CONFIG_DRM_RADEON_USERPTR=y
-* # CONFIG_DRM_RADEON_UMS is not set
+* --> CONFIG_DRM_RADEON_UMS is not set
 * CONFIG_DRM_AMDGPU=m
 * CONFIG_DRM_AMDGPU_CIK=y
 * CONFIG_DRM_AMDGPU_USERPTR=y
