@@ -9,6 +9,19 @@ same as before RENO for TCP instead of CUBIC, packet generator module, different
 * CONFIG_SECURITY_TOMOYO is not set
 * CONFIG_DEFAULT_SECURITY_APPARMOR is not set
 
+for fglrx see FGLRX graphics support patched installer for 4.4
+
+* CONFIG_DRM_RADEON=m
+* CONFIG_DRM_RADEON_USERPTR=y
+* # CONFIG_DRM_RADEON_UMS is not set
+* CONFIG_DRM_AMDGPU=m
+* CONFIG_DRM_AMDGPU_CIK=y
+* CONFIG_DRM_AMDGPU_USERPTR=y
+* CONFIG_DRM_NOUVEAU=m
+* CONFIG_NOUVEAU_DEBUG=5
+* CONFIG_NOUVEAU_DEBUG_DEFAULT=3
+* CONFIG_DRM_NOUVEAU_BACKLIGHT=y
+
 RHEL/CentOS/Fedora based RPMS, based on kernel 4.4, for FGLRX graphics, and experimental security functions, moonLogo on boot with grub options, "vga=0x346", also Broadcom TIGON3 gigabit ethernet for hp class machines, and MT7610U usb wifi 802.11ac for wavlink mediatek devices (not 100% working as a kernel module seperate meditatek mt7610u drivers below),
 https://github.com/c4pt000/mt7610u_wifi_sta_v3002_dpo_20130916
 
