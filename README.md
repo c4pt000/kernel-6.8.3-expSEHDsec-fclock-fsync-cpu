@@ -38,7 +38,7 @@ modprobe hid_xpadneo
 ##
 
 
-rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options)
+rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options) #Docker added
 
 * https://drive.google.com/open?id=1BsXnWMyJ5Tu2jYBr27SXLvya-bAqf983
 
