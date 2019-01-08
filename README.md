@@ -2,6 +2,8 @@
 kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_MT7610Uwifi-41.x86_64
 "hardware candy" security kernel, 
 
+label this as a **WIP**
+
 same as before RENO for TCP instead of CUBIC, packet generator module, different IPSEC stacks, hardware events, different dyntick, kobject loading, prelimenary stack protection with RAM, different userspace protection from debugging, basic SMACK policies, SELINUX, no TOMOYO, no apparmor by default 
 
 * CONFIG_DEFAULT_SECURITY_SELINUX=y
