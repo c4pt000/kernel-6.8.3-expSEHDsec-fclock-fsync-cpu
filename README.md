@@ -4,6 +4,8 @@ kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_MT7610Uwifi-41.x86_64
 
 label this as a **WIP**
 
+# *new push for Docker support 
+
 same as before RENO for TCP instead of CUBIC, packet generator module, different IPSEC stacks, hardware events, different dyntick, kobject loading, prelimenary stack protection with RAM, different userspace protection from debugging, basic SMACK policies, SELINUX, no TOMOYO, no apparmor by default 
 
 * CONFIG_DEFAULT_SECURITY_SELINUX=y
@@ -38,7 +40,7 @@ modprobe hid_xpadneo
 
 rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options)
 
-* https://drive.google.com/open?id=1QEVV6ySDhof3Cok75PuNcZFFgsPBCdXL
+* https://drive.google.com/open?id=1BsXnWMyJ5Tu2jYBr27SXLvya-bAqf983
 
 .debs (untested)
 
