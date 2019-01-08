@@ -33,9 +33,10 @@ modprobe hid_xpadneo
 ##
 ##
 
-rpms
 
-* https://drive.google.com/file/d/17y-jRLn5-agnmMLuyIaxqVAb8ASQ5ArP/view
+rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options)
+
+* https://drive.google.com/open?id=1QEVV6ySDhof3Cok75PuNcZFFgsPBCdXL
 
 .debs (untested)
 
