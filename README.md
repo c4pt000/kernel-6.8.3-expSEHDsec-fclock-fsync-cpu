@@ -37,6 +37,9 @@ modprobe hid_xpadneo
 ##
 ##
 
+02-07-2019
+* push for i915 support, intel graphics
+https://drive.google.com/open?id=1zz0nqB3DOYScDOZm43kkjs1H4oJavTjH
 
 rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options) *Docker support enabled
 
