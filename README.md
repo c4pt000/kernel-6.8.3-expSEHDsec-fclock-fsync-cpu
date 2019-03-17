@@ -59,3 +59,12 @@ patched for 4.4,
 (compiz-fusion-plugins-experimental       RPM only.,     since the experimental plugins are more widely available on deb based linux)
 
 * https://drive.google.com/open?id=1Jo34N_tVUwOXMQxVPZ-MrIneTowOOG_Z
+
+
+
+
+if you found this useful, anything helps
+
+1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
+
+https://i.imgur.com/MVirCFO.png
