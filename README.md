@@ -1,3 +1,17 @@
+
+# *** PUSH for uvc video support, 05-01-2019, for usb webcam support , what security kernel isnt complete without support for usb video?
+
+
+RPM + DEB
+
+https://drive.google.com/file/d/1t_NKSJAuMOw23QblFXu5UgkC9kLLoekP/view
+
+
+
+
+
+
+
 # kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
 kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
 "hardware candy" security kernel, 
