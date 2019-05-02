@@ -1,11 +1,13 @@
 
 # *** PUSH for uvc video support, 05-01-2019, for usb webcam support , what security kernel isnt complete without support for usb video?
 
+uvc device support http://www.ideasonboard.org/uvc/
 
 RPM + DEB
 
 https://drive.google.com/file/d/1t_NKSJAuMOw23QblFXu5UgkC9kLLoekP/view
 
+modprobe uvcvideo
 
 
 
