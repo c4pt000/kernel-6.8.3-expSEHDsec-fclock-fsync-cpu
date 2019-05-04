@@ -45,6 +45,16 @@ https://drive.google.com/uc?id=1ojpmue2IUI5CjAMei6KOizOC51-wwJMU&export=download
 modprobe uvcvideo
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 # kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
