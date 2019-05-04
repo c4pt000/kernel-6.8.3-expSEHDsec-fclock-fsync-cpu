@@ -2,10 +2,10 @@
 # *** PUSH for uvc video support, 05-01-2019, for usb webcam support , what security kernel isnt complete without support for usb video?
 
 
-* moon logo <p align="center"><img src="https://i.imgur.com/CAywHCC.png" width="200"></p>
+* moon logo <p align="center"><img src="https://i.imgur.com/CAywHCC.png" width="80"></p>
 
 
-* penguin logo <p align="center"><img src="https://i.imgur.com/mlFQ4sC.png" width="200"></p>
+* penguin logo <p align="center"><img src="https://i.imgur.com/mlFQ4sC.png" width="80"></p>
 
 
 
@@ -26,6 +26,16 @@ https://drive.google.com/file/d/1t_NKSJAuMOw23QblFXu5UgkC9kLLoekP/view
 modprobe uvcvideo
 
 
+# * PENGUIN LOGO
+
+uvc device support http://www.ideasonboard.org/uvc/
+
+RPM + DEB
+
+https://drive.google.com/uc?id=1ojpmue2IUI5CjAMei6KOizOC51-wwJMU&export=download
+
+
+modprobe uvcvideo
 
 
 
