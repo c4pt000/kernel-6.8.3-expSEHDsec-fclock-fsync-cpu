@@ -15,8 +15,7 @@
 
 
 
-
-
+# * MOON LOGO
 
 uvc device support http://www.ideasonboard.org/uvc/
 
