@@ -69,23 +69,41 @@ kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
 (as single user different default kernel)
 
 sytemctl disable systemd-journald
+<br>
+<br>
 mv /usr/lib/systemd/systemd-journald /usr/lib/systemd/systemd-journald.orig
+<br>
+<br>
 cd /usr/sbin
+<br>
+<br>
 mv plymouthd plymouthd
 
 
 
 (for fglrx install)
+<br>
+<br>
 install "devtoolset-2"
 
 nano /etc/dnf/dnf.conf
+<br>
+<br>
 exclude=xorg*fc28*,kernel-core*,xorg*fc15
 
 
 
 add fedora-archive-18
+<br>
+<br>
 #######################
+<br>
+<br>
 cat /etc/yum.repos.d/fedora.arc.repo
+
+
+<br>
+<br>
 [fedora-arc-18]
 name=Fedora 18 - $basearch
 failovermethod=priority
