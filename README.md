@@ -237,7 +237,9 @@ exclude=xorg*fc28*,kernel-core*,xorg*fc15,xorg
 
 
 to build FGLRX with this running version of X11 and devtoolset-2
+<br>
 scl enable devtoolset-2 bash
+<br>
 ./ati-install 15.302 --install --force
 
 
