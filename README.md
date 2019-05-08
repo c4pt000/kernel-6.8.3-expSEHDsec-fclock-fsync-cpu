@@ -40,7 +40,7 @@ modprobe hid_xpadneo
 <br>
 <br>
 <br>
-<p align="center"><img src="https://i.imgur.com/NJ56ROO.png" width="1800"></p>
+<p align="center"><img src="https://i.imgur.com/NJ56ROO.png" width="3000"></p>
 
 <br>
 <br>
