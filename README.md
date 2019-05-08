@@ -66,6 +66,46 @@ kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
 
 ## Fedora 28
 
+nvidia + fglrx (100% working others still un-tested (amggpu,etc)
+<br>
+
+compiler issues between gcc34, gcc8.3.1, gcc 4.8.5 only with fedora 
+<br>
+                                                               
+to change still WIP,                                               
+<br>
+
+CONFIG_CC_STACKPROTECTOR_NONE=n
+<br>
+
+CONFIG_CC_STACKPROTECTOR_REGULAR=y
+<br>
+
+CONFIG_CC_STACKPROTECTOR_STRONG=n
+<br>
+
+
+ -fstack-protector-strong for gcc errors 
+<br>
+
+gmp-6.1.2-7.fc28.x86_64.rpm
+<br>
+
+gmp-4.3.2-3.fc15.x86_64.rpm
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
 (as single user different default kernel)
 
 sytemctl disable systemd-journald
