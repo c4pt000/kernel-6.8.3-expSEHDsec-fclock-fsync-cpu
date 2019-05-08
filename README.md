@@ -5,6 +5,9 @@
 * moon logo <p align="center"><img src="https://i.imgur.com/CAywHCC.png" width="80"></p>
 
 
+(logo pulled from ios7 theme used with "clover bootloader" for booting ext4 drives)
+
+
 * penguin logo <p align="center"><img src="https://i.imgur.com/mlFQ4sC.png" width="80"></p>
 
 
@@ -46,7 +49,6 @@ modprobe hid_xpadneo
 <br>
 <br>
 
-(logo pulled from ios7 theme used with "clover bootloader" for booting ext4 drives)
 
 # * PENGUIN LOGO
 
