@@ -49,6 +49,10 @@ modprobe hid_xpadneo
 
 uvc device support http://www.ideasonboard.org/uvc/
 <br>
+<br>
+<br>
+<br>
+<br>
 
 RPMs
 <br>
