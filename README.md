@@ -18,12 +18,24 @@
 # * MOON LOGO
 
 uvc device support http://www.ideasonboard.org/uvc/
+<br>
+<br>
+<br>
+<br>
 
-RPM + DEB
-
-
+RPMs
+<br>
+https://drive.google.com/open?id=1QKvcJRVaEVFDsU6-vPhaBBw8HdCehU2a
+<br>
+DEBs
+<br>
+https://drive.google.com/open?id=152FP7nYlrYi65969P2u6wayHJnuGbnYu
+<br>
+<br>
+<br>
 
 modprobe uvcvideo
+modprobe hid_xpadneo
 
 <br>
 <br>
@@ -36,17 +48,21 @@ modprobe uvcvideo
 # * PENGUIN LOGO
 
 uvc device support http://www.ideasonboard.org/uvc/
+<br>
 
 RPMs
+<br>
 https://drive.google.com/open?id=12rwMY_zURmwF2XFlIP8okePH4QAMIchH
-
+<br>
 DEBs
+<br>
 https://drive.google.com/open?id=1EJxOkGQtUvdHcQKOydxrcUQQSdY3jsq6
+<br>
 
 
 
 modprobe uvcvideo
-
+modprobe hid_xpadneo
 
 <br>
 <br>
