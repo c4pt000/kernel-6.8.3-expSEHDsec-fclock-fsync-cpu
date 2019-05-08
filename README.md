@@ -121,7 +121,7 @@ mv plymouthd plymouthd
 
 
 
-#* (for fglrx install)
+# * (for fglrx install)
 <br>
 <br>
 install "devtoolset-2"
