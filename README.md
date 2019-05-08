@@ -40,7 +40,6 @@ modprobe hid_xpadneo
 <br>
 <br>
 <br>
-<p align="center"><img src="https://i.imgur.com/Q4EiiO2.png" width="800"></p>
 
 <br>
 <br>
@@ -73,6 +72,8 @@ modprobe hid_xpadneo
 <br>
 <br>
 <br>
+<p align="center"><img src="https://i.imgur.com/Q4EiiO2.png" width="800"></p>
+
 <br>
 <br>
 <br>
