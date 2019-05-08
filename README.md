@@ -66,7 +66,7 @@ kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
 
 ## Fedora 28
 
-nvidia + fglrx (100% working others still un-tested (amggpu,etc)
+nvidia + fglrx (100% working others still un-tested (amdgpu,etc)
 <br>
 
 compiler issues between gcc34, gcc8.3.1, gcc 4.8.5 only with fedora 
