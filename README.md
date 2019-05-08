@@ -35,6 +35,7 @@ https://drive.google.com/open?id=152FP7nYlrYi65969P2u6wayHJnuGbnYu
 <br>
 
 modprobe uvcvideo
+<br>
 modprobe hid_xpadneo
 
 <br>
@@ -68,6 +69,7 @@ https://drive.google.com/open?id=1EJxOkGQtUvdHcQKOydxrcUQQSdY3jsq6
 
 
 modprobe uvcvideo
+<br>
 modprobe hid_xpadneo
 
 <br>
