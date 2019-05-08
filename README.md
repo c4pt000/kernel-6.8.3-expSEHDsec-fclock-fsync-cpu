@@ -21,7 +21,6 @@ uvc device support http://www.ideasonboard.org/uvc/
 
 RPM + DEB
 
-https://drive.google.com/file/d/1RNejNRybDularYz38yT7rHPgCqoN0kSx/view
 
 
 modprobe uvcvideo
@@ -38,9 +37,9 @@ modprobe uvcvideo
 
 uvc device support http://www.ideasonboard.org/uvc/
 
-RPM + DEB
+RPMs
+https://drive.google.com/open?id=12rwMY_zURmwF2XFlIP8okePH4QAMIchH
 
-https://drive.google.com/file/d/1RNejNRybDularYz38yT7rHPgCqoN0kSx/view
 
 
 
