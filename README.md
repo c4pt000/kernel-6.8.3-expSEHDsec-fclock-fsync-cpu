@@ -88,8 +88,8 @@ modprobe hid_xpadneo
 <br>
 
 
-# kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
-kernel-4.4.167expSEHDsec_XPAD1_tg3_moonlogo_KVM.x86_64
+# kernel-4.4.167expSEHDsec
+kernel-4.4.167expSEHDsec
 "hardware candy" security kernel, 
 
 
