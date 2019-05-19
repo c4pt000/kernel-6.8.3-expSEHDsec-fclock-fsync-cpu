@@ -148,9 +148,18 @@ gmp-4.3.2-3.fc15.x86_64.rpm
 * mv /usr/bin/plymouthd /usr/bin/plymouthd.orig
 <br>
 <br>
-* (plymouth *not* plymouthd might be essential and needed for lightdm to execute)
-<br>
 * remove "resume= " line in grub
+<br>
+* rebuild grub.cfg
+<br>
+<br>
+<br>
+* 'untouched'
+
+* /usr/bin/plymouth
+<br>
+* (plymouth *not* plymouthd might be essential and needed for lightdm or possible gdm (others) to execute)
+<br>
 
 
 
