@@ -145,10 +145,8 @@ gmp-4.3.2-3.fc15.x86_64.rpm
 * mv /usr/lib/systemd/systemd-journald /usr/lib/systemd/systemd-journald.orig
 <br>
 <br>
-* cd /usr/bin
+* mv /usr/bin/plymouthd /usr/bin/plymouthd.orig
 <br>
-<br>
-* mv plymouthd plymouthd
 <br>
 * (plymouth *not* plymouthd might be essential and needed for lightdm to execute)
 <br>
