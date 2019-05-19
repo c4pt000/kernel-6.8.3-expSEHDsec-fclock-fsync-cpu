@@ -18,6 +18,11 @@
 
 
 
+* to select video modes @boot
+* add:
+* GRUB_CMDLINE_LINUX="vga=0x000
+* rebuild grub.cfg
+
 # * MOON LOGO
 
 uvc device support http://www.ideasonboard.org/uvc/
