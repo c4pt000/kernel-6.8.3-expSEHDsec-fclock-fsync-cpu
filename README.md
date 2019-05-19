@@ -95,7 +95,7 @@ kernel-4.4.167expSEHDsec
 
 
 
-## Fedora 28
+## Fedora 28 only
 
 nvidia + fglrx (100% working others still un-tested (amdgpu,etc)
 <br>
@@ -136,19 +136,24 @@ gmp-4.3.2-3.fc15.x86_64.rpm
 
 
 
+# * STUCK BOOT PROCESS in Fedora 28+ only
+* (as single user different default kernel)
+<br>
+* sytemctl disable systemd-journald
+<br>
+<br>
+* mv /usr/lib/systemd/systemd-journald /usr/lib/systemd/systemd-journald.orig
+<br>
+<br>
+* cd /usr/bin
+<br>
+<br>
+* mv plymouthd plymouthd
+<br>
+* (plymouth *not* plymouthd might be essential and needed for lightdm to execute)
+<br>
+* remove "resume= " line in grub
 
-(as single user different default kernel)
-
-sytemctl disable systemd-journald
-<br>
-<br>
-mv /usr/lib/systemd/systemd-journald /usr/lib/systemd/systemd-journald.orig
-<br>
-<br>
-cd /usr/sbin
-<br>
-<br>
-mv plymouthd plymouthd
 
 
 
