@@ -34,11 +34,11 @@ uvc device support http://www.ideasonboard.org/uvc/
 
 RPMs
 <br>
-https://drive.google.com/open?id=1QKvcJRVaEVFDsU6-vPhaBBw8HdCehU2a
+https://drive.google.com/file/d/1_CFlF01KfFAGb1L72ABbeEE8AWRZOLu_/view
 <br>
 DEBs
 <br>
-https://drive.google.com/open?id=152FP7nYlrYi65969P2u6wayHJnuGbnYu
+https://drive.google.com/file/d/1Mxfy6Lau9rDrxpNGKYnugH_LOy0M8Y-V/view
 <br>
 <br>
 <br>
