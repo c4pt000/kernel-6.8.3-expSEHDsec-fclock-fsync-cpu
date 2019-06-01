@@ -167,6 +167,35 @@ gmp-4.3.2-3.fc15.x86_64.rpm
 <br>
 
 
+FGLRX legacy HD 6XXX/7XXX support, (outside of AMDGPU, AMDGPU-PRO support) patched for 4.4,
+
+https://github.com/c4pt000/FGLRX-for-linux-4.4
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 # * (for fglrx install)
