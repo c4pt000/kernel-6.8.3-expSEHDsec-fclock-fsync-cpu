@@ -14,7 +14,7 @@
 
 * penguin logo boot <p align="center"><img src="https://i.imgur.com/IdbMjql.jpg" width="400"></p>
 
-<br>
+
 # * update support for loading 88XXau module for USB wifi (Alfa usb wifi wardriving cards)
 
 <br>
