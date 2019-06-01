@@ -75,7 +75,6 @@ https://drive.google.com/uc?id=143gCFTmYXbn0yU7p5LxWQXQxlYiLNnJt&export=download
 <br>
 DEBs
 <br>
-<br>
 https://drive.google.com/file/d/18ysoII0cm8A2oUojNsUNcj_0ICvUMdo1/view
 <br>
 modprobe uvcvideo
