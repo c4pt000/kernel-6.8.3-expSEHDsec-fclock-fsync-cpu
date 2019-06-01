@@ -47,6 +47,8 @@ modprobe uvcvideo
 <br>
 modprobe hid_xpadneo
 <br>
+*updated for the moon logo
+<br>
 modprobe 88XXau
 <br>
 <br>
