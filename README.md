@@ -65,6 +65,7 @@ uvc device support http://www.ideasonboard.org/uvc/
 <br>
 
 RPMs
+
 <br>
 https://drive.google.com/open?id=12rwMY_zURmwF2XFlIP8okePH4QAMIchH
 <br>
@@ -72,7 +73,9 @@ DEBs
 <br>
 https://drive.google.com/open?id=1EJxOkGQtUvdHcQKOydxrcUQQSdY3jsq6
 <br>
-
+# * new 88XXau module support
+https://drive.google.com/file/d/18ysoII0cm8A2oUojNsUNcj_0ICvUMdo1/view
+<br>
 
 
 modprobe uvcvideo
