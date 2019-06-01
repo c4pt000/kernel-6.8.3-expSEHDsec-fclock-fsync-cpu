@@ -46,7 +46,8 @@ https://drive.google.com/open?id=152FP7nYlrYi65969P2u6wayHJnuGbnYu
 modprobe uvcvideo
 <br>
 modprobe hid_xpadneo
-
+<br>
+modprobe 88XXau
 <br>
 <br>
 <br>
@@ -82,7 +83,8 @@ https://drive.google.com/file/d/18ysoII0cm8A2oUojNsUNcj_0ICvUMdo1/view
 modprobe uvcvideo
 <br>
 modprobe hid_xpadneo
-
+<br>
+modprobe 88XXau
 <br>
 <br>
 <br>
