@@ -300,8 +300,11 @@ patched for 4.4,
 
 if you found this useful, anything helps
 
-1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
+1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
 
-![s1](https://i.imgur.com/MVirCFO.png)
+https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
+
+
+![s1](https://i.imgur.com/paWcwz2.png)
 
 
