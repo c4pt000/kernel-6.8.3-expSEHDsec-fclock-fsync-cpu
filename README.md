@@ -305,6 +305,6 @@ if you found this useful, anything helps
 https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
 
 
-![s1](https://i.imgur.com/paWcwz2.png)
+![s1](https://i.imgur.com/py97aYA.png)
 
 
