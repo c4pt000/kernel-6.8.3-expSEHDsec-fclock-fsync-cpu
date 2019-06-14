@@ -69,7 +69,7 @@ uvc device support http://www.ideasonboard.org/uvc/
 <br>
 
 
-# * new 88XXau module support
+# * new 88XXau module support (moonLogo, working for .debs, still need to throughly check threw the 88XXau module loading for the penguin .debs)
 <br>
 RPMs
 <br>
