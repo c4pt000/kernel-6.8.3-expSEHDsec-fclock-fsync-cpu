@@ -1,4 +1,4 @@
-# *** 09-2019 nupdate for SSD NVMe based hard drives, -> kernel 5.2.14
+# *** 09-2019 update for SSD NVMe based hard drives, -> kernel 5.2.14
 https://github.com/c4pt000/kernel-5.2.14.expSEHDsec
 
 
