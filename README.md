@@ -1,3 +1,6 @@
+# *** update for SSD NVMe based hard drives, -> kernel 5.2.14
+https://github.com/c4pt000/kernel-5.2.14.expSEHDsec
+
 
 # *** PUSH for uvc video support, 05-01-2019, for usb webcam support , what security kernel isnt complete without support for usb video?
 
