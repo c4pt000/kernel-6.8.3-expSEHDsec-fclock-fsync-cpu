@@ -1,5 +1,6 @@
-# *** 09-2019 update for SSD NVMe based hard drives, -> kernel 5.2.14
-# * https://github.com/c4pt000/kernel-5.2.14.expSEHDsec
+# *** 09-2019 kernel-5.2.14-expSEHDsec removed major xfs corruption bug in xfs_module discovered for xfs filesystems
+https://bugzilla.redhat.com/show_bug.cgi?id=1691634#c4
+
 
 
 # *** PUSH for uvc video support, 05-01-2019, for usb webcam support , what security kernel isnt complete without support for usb video?
