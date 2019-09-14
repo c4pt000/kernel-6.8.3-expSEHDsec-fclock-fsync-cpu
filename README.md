@@ -1,4 +1,5 @@
-# *** 09-2019 kernel-5.2.14-expSEHDsec removed major xfs corruption bug in xfs_module discovered for xfs filesystems
+# ** 09-2019 kernel-5.2.14-expSEHDsec removed 
+* major xfs corruption bug in xfs_module discovered for xfs filesystems
 https://bugzilla.redhat.com/show_bug.cgi?id=1691634#c4
 
 
