@@ -24,7 +24,10 @@ https://github.com/c4pt000/kernel-4.4.167expSEHDsec/blob/master/wifi-4.14.tar.gz
 * for nvidia gfx support via
 http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-430.50.run
 
-* intel gvt virtualization enabled see config CONFIG_DRM_I915_GVT=y
+* intel gvt virtualization enabled > 4.16
+
+(virtual intel graphics device *pci-e passthrough "kvm/xen")
+see config CONFIG_DRM_I915_GVT=y
 https://wiki.archlinux.org/index.php/Intel_GVT-g
 
 
