@@ -3,11 +3,18 @@
 * SSD support
 * partial XFS support
 * Intel 620/630 HD gfx (stability for framebuffer / gfx acceleration)
-* rtl8821ce for hp dw0045nr model laptops by default (wifi)
-* rtl8812au (rtl88XXau) Alfa 802.11ac support
 * xpad ONE
 * KVM functional (pci-e passthrough untested)
 * basic docker functionality
+
+
+* conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel 
+* see wifi-4.14.tar.gz in this repo
+https://github.com/c4pt000/kernel-4.4.167expSEHDsec/blob/master/wifi-4.14.tar.gz
+
+* rtl8821ce for hp dw0045nr model laptops by default (wifi)
+* rtl8812au (rtl88XXau) Alfa 802.11ac support
+
 
 -> todo: elan based touchpad enable functionality
 
