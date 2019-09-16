@@ -26,6 +26,8 @@ amd untested
 
 # * penguin 4.18 expSEHDsec
 
+* ssd support
+
 * RPMs
 https://drive.google.com/uc?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ&export
 
@@ -33,6 +35,8 @@ https://drive.google.com/uc?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ&export
 https://drive.google.com/uc?id=1fsAkezkCuatEaDQt9Ldd3_42lY6tfxC_&export
 
 # * moon 4.18 expSEHDsec
+
+* ssd support
 
 * RPMs
 https://drive.google.com/uc?id=1Cef3b5udqphxx0lqs42o_JjVyUxuLpeS&export
