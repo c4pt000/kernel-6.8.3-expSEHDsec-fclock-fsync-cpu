@@ -17,7 +17,7 @@ amd untested
 penguin 4.18 expSEHDsec
 
 * RPMs
-https://drive.google.com/open?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ
+https://drive.google.com/uc?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ&export
 
 * DEBs
 https://drive.google.com/uc?id=1fsAkezkCuatEaDQt9Ldd3_42lY6tfxC_&export
