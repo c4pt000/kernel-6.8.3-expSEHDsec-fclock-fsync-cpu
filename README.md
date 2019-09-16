@@ -14,7 +14,7 @@ http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-43
 
 amd untested
 
-penguin 4.18 expSEHDsec
+# * penguin 4.18 expSEHDsec
 
 * RPMs
 https://drive.google.com/uc?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ&export
