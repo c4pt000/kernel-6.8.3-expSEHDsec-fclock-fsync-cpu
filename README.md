@@ -8,7 +8,8 @@
 * basic docker functionality
 
 
-* conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel 
+* conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
+
 * see wifi-4.14.tar.gz in this repo
 https://github.com/c4pt000/kernel-4.4.167expSEHDsec/blob/master/wifi-4.14.tar.gz
 
