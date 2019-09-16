@@ -35,7 +35,10 @@ https://drive.google.com/uc?id=1fsAkezkCuatEaDQt9Ldd3_42lY6tfxC_&export
 # * moon 4.18 expSEHDsec
 
 * RPMs
-https://drive.google.com/uc?id=1Cef3b5udqphxx0lqs42o_JjVyUxuLpeS&export=download
+https://drive.google.com/uc?id=1Cef3b5udqphxx0lqs42o_JjVyUxuLpeS&export
+
+* DEBs
+https://drive.google.com/uc?id=19OVDZ1ajuCDulTw8Na97G9dH8sFwsWNt&export
 
 <br>
 <br>
