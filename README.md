@@ -1,3 +1,33 @@
+# * WIP
+* 09-16-2019
+* SSD support
+* partial XFS support
+* Intel 620/630 HD gfx (stability for framebuffer / gfx acceleration)
+* rtl8821ce for hp dw0045nr model laptops by default (wifi)
+* rtl8812au (rtl88XXau) Alfa 802.11ac support
+* xpad ONE
+* KVM functional (pci-e passthrough untested)
+* basic docker functionality
+
+for nvidia gfx support via
+http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-430.50.run
+
+amd untested
+
+penguin 4.18 expSEHDsec
+
+* RPMs
+https://drive.google.com/open?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 # ** 09-2019 kernel-5.2.14-expSEHDsec removed 
 * major xfs corruption bug in xfs_module discovered for xfs filesystems
 https://bugzilla.redhat.com/show_bug.cgi?id=1691634#c4
