@@ -9,6 +9,8 @@
 * KVM functional (pci-e passthrough untested)
 * basic docker functionality
 
+-> todo: elan based touchpad enable functionality
+
 for nvidia gfx support via
 http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-430.50.run
 
