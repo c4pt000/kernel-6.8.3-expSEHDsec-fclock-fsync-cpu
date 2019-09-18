@@ -8,6 +8,8 @@
 
 * overlooked .config file settings for default "docker" kernel building IP_NAT etc.
 * basic docker functionality (*wip docker loading)
+https://raw.githubusercontent.com/coreos/docker/master/contrib/check-config.sh
+
 
 * conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
 
