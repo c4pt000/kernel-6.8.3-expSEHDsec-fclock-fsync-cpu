@@ -5,7 +5,9 @@
 * Intel 620/630 HD gfx (stability for framebuffer / gfx acceleration)
 * xpad ONE
 * KVM functional (pci-e passthrough untested)
-* basic docker functionality (*wip not 100% functioning oversight)
+
+* overlooked .config file settings for default "docker" kernel building IP_NAT etc.
+* basic docker functionality (*wip docker loading)
 
 * conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
 
@@ -35,7 +37,10 @@ https://wiki.archlinux.org/index.php/Intel_GVT-g
 * ssd support
 
 * RPMs
-https://drive.google.com/uc?id=1yoWaog04ix5P05_Qr962TDuP-vxuhoXJ&export
+
+https://drive.google.com/uc?id=1HQKP2yEwMZ669vEc7NK2NA0Qyd9cEnT6&export
+
+
 
 * DEBs
 https://drive.google.com/uc?id=1fsAkezkCuatEaDQt9Ldd3_42lY6tfxC_&export
