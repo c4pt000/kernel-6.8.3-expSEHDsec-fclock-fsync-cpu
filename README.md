@@ -39,13 +39,11 @@ https://wiki.archlinux.org/index.php/Intel_GVT-g
 * ssd support
 
 * RPMs
-
 https://drive.google.com/uc?id=1HQKP2yEwMZ669vEc7NK2NA0Qyd9cEnT6&export
 
-
-
 * DEBs
-https://drive.google.com/uc?id=1fsAkezkCuatEaDQt9Ldd3_42lY6tfxC_&export
+https://drive.google.com/uc?id=1QXKk_I3_WaS9X5JaiNaWxcGgjKcGskq9&export
+
 
 # * moon logo 4.18 expSEHDsec
 
