@@ -50,7 +50,8 @@ https://drive.google.com/uc?id=1QXKk_I3_WaS9X5JaiNaWxcGgjKcGskq9&export
 * ssd support
 
 * RPMs
-https://drive.google.com/uc?id=1Cef3b5udqphxx0lqs42o_JjVyUxuLpeS&export
+https://drive.google.com/uc?id=1L0xGKlyC0nopY_SPuSCFc64XHKEYL8Ci&export
+
 
 * DEBs
 https://drive.google.com/uc?id=19OVDZ1ajuCDulTw8Na97G9dH8sFwsWNt&export
