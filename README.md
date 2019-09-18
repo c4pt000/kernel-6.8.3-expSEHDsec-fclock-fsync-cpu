@@ -54,7 +54,8 @@ https://drive.google.com/uc?id=1L0xGKlyC0nopY_SPuSCFc64XHKEYL8Ci&export
 
 
 * DEBs
-https://drive.google.com/uc?id=19OVDZ1ajuCDulTw8Na97G9dH8sFwsWNt&export
+https://drive.google.com/uc?id=1q8rZKXOKmnIAUDrZ9_gMEV79xwR-Ddem&export
+
 
 <br>
 <br>
