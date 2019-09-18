@@ -6,7 +6,7 @@
 * xpad ONE
 * KVM functional (pci-e passthrough untested)
 
-* overlooked .config file settings for default "docker" kernel building IP_NAT etc.
+* overlooked .config file settings for default "docker" kernel, building IP_NAT etc.
 * basic docker functionality (*wip docker loading)
 https://raw.githubusercontent.com/coreos/docker/master/contrib/check-config.sh
 
