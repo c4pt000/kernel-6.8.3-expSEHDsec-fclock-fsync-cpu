@@ -5,8 +5,7 @@
 * Intel 620/630 HD gfx (stability for framebuffer / gfx acceleration)
 * xpad ONE
 * KVM functional (pci-e passthrough untested)
-* basic docker functionality
-
+* basic docker functionality (*wip not 100% functioning oversight)
 
 * conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
 
