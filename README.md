@@ -5,13 +5,13 @@
 
 * WIP continues to incorporate both drivers into 4.18-expSEHDsec kernel
 
-<p>
-rtl8821ce added 
-  </p>
+
 * with support for monitor mode (airodump-ng, wifite) working with managed mode
-<p>
+<br>
+rtl8821ce added 
+<br>
 rtl8821ce.tar.exp-monitor.mode.tar.gz 
-</p>
+<br>
 RTL88XXau added 
 <br>
 RTL88XXau.tar.gz
