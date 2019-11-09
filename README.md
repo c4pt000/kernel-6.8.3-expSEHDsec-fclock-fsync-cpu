@@ -90,16 +90,7 @@ https://drive.google.com/file/d/1aKDApBHkB0__uPo4vUnR9Izz9e9k361M/view
 
 
 
-# * moon logo 4.18 expSEHDsec
 
-* ssd support
-
-* RPMs
-https://drive.google.com/uc?id=1L0xGKlyC0nopY_SPuSCFc64XHKEYL8Ci&export
-
-
-* DEBs
-https://drive.google.com/uc?id=1q8rZKXOKmnIAUDrZ9_gMEV79xwR-Ddem&export
 
 
 <br>
