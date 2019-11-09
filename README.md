@@ -80,6 +80,10 @@ https://wiki.archlinux.org/index.php/Intel_GVT-g
 # * updated 11-09-2019 -> fedora 31 (CentOS 8 repos still need to catch up)
 <br>
 <br>
+rtl8821ce 
+rtl8812au 
+seperate builds here
+not bundled conflict between rtl8821ce + rtl8812au
 
 # * penguin logo 4.18 expSEHDsec
 
