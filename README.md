@@ -71,16 +71,23 @@ http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-43
 see config CONFIG_DRM_I915_GVT=y
 https://wiki.archlinux.org/index.php/Intel_GVT-g
 
-
+* updated 11-09-2019 -> fedora 31
 # * penguin logo 4.18 expSEHDsec
 
 * ssd support
 
 * RPMs
-https://drive.google.com/uc?id=1HQKP2yEwMZ669vEc7NK2NA0Qyd9cEnT6&export
+
+https://drive.google.com/file/d/1n7xNrGHENFmX66MqK4TCf1VkAlvrrmeZ/view?usp=sharing
+
 
 * DEBs
-https://drive.google.com/uc?id=1QXKk_I3_WaS9X5JaiNaWxcGgjKcGskq9&export
+
+https://drive.google.com/file/d/1aKDApBHkB0__uPo4vUnR9Izz9e9k361M/view
+
+
+
+
 
 
 # * moon logo 4.18 expSEHDsec
