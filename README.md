@@ -415,6 +415,10 @@ patched for 4.4,
 <br>
 <br>
 
+donate via google pay
+devdataspace@gmail.com
+
+or 
 
 if you found this useful, anything helps
 
