@@ -77,7 +77,7 @@ https://wiki.archlinux.org/index.php/Intel_GVT-g
 <br>
 <br>
 
-* updated 11-09-2019 -> fedora 31 (CentOS 8 repos still need to catch up)
+# * updated 11-09-2019 -> fedora 31 (CentOS 8 repos still need to catch up)
 <br>
 <br>
 
