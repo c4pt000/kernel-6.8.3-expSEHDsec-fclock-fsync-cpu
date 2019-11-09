@@ -70,8 +70,17 @@ http://us.download.nvidia.com/XFree86/Linux-x86_64/430.50/NVIDIA-Linux-x86_64-43
 (virtual intel graphics device *pci-e passthrough "kvm/xen")
 see config CONFIG_DRM_I915_GVT=y
 https://wiki.archlinux.org/index.php/Intel_GVT-g
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-* updated 11-09-2019 -> fedora 31
+* updated 11-09-2019 -> fedora 31 (CentOS 8 repos still need to catch up)
+<br>
+<br>
+
 # * penguin logo 4.18 expSEHDsec
 
 * ssd support
