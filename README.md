@@ -85,6 +85,8 @@ rtl8812au
 seperate builds here
 not bundled conflict between rtl8821ce + rtl8812au
 4.18 xfs is buggy don't rely on xfs -> ext4 over xfs
+
+todo -> trackpad support (hp dw0037nr) (hp dw0045nr) 
 # * penguin logo 4.18 expSEHDsec
 
 * ssd support
