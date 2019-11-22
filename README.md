@@ -49,7 +49,7 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 
 
-# * Docker Server Version: 19.03.5
+# * Docker Server Version: 19.03.5 -> 4.18.0
 
 * /etc/default/grub
 
@@ -88,6 +88,19 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 cgroup2 /sys/fs/cgroup cgroup2 defaults,blkio,net_cls,freezer,devices,cpuacct,cpu,cpuset,memory,clone_children 0 0
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 * conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
 
