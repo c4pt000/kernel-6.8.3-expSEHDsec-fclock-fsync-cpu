@@ -55,7 +55,7 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 * add after rhgb :
 
-* (vga hp-dw0045nr)
+* (vga mode -> 1366x768 hp-dw0045nr)
 
 * rhgb vga=0x37F intel_iommu=on iommu=pt cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0"
 
