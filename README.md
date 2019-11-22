@@ -46,8 +46,51 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 * overlooked .config file settings for default "docker" kernel, building IP_NAT etc.
 * basic docker functionality (*wip docker loading)
-https://raw.githubusercontent.com/coreos/docker/master/contrib/check-config.sh
 
+
+
+# *  Server Version: 19.03.5
+
+* /etc/default/grub
+
+* add after rhgb :
+
+* rhgb vga=0x37F intel_iommu=on iommu=pt cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0"
+
+* overlay2 storage drivers here
+
+
+* /etc/docker/docker.json 
+```
+ {
+   "storage-driver": "overlay2"
+ }
+```
+* docker.service must exist as
+
+* /etc/systemd/system/multi-user.target.wants/docker.service
+
+```systemctl enable --now docker``` for docker always enabled at startup
+
+
+* /etc/systemd/system/multi-user.target.wants/docker.service
+
+ 
+* change from : 
+* ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+* to:
+* ExecStart=/usr/bin/dockerd --storage-driver=overlay2
+
+
+# * /etc/fstab
+
+* for /etc/default/grub config -> cgroup -> grub.cfg
+
+```# cgroup /sys/fs/cgroup cgroup defaults
+
+cgroup2 /sys/fs/cgroup cgroup2 defaults,blkio,net_cls,freezer,devices,cpuacct,cpu,cpuset,memory,clone_children 0 0
+```
 
 * conflicts between incorporating both rtl8821ce and rtl8812au into current running kernel based on design of custom header files between modules, both modules calling a few different rtl88XX models using different addressing based between similar headers
 
