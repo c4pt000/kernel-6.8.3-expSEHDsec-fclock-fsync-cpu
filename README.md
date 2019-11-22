@@ -49,7 +49,7 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 
 
-# *  Server Version: 19.03.5
+# * Docker Server Version: 19.03.5
 
 * /etc/default/grub
 
