@@ -59,17 +59,13 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 
 * rhgb vga=0x37F intel_iommu=on iommu=pt cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0"
 
-* overlay2 storage drivers here
-
-* /etc/docker/docker.json 
+* overlay2 storage drivers here -> /etc/docker/docker.json 
 ```
  {
    "storage-driver": "overlay2"
  }
 ```
-* docker.service must exist as
-
-* /etc/systemd/system/multi-user.target.wants/docker.service
+* docker.service must exist as -> ```/etc/systemd/system/multi-user.target.wants/docker.service```
 
 ```systemctl enable --now docker``` for docker always enabled at startup
 
