@@ -67,7 +67,7 @@ iwconfig wlo1 mode monitor       #where wlo1 is the wifi
 ```
 * docker.service must exist as -> ```/etc/systemd/system/multi-user.target.wants/docker.service```
 
-```systemctl enable --now docker``` for docker always enabled at startup
+```systemctl enable --now docker``` for docker always enabled at startup (optional)
 
 
 * /etc/systemd/system/multi-user.target.wants/docker.service
