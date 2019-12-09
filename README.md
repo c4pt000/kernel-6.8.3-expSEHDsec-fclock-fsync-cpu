@@ -1,5 +1,8 @@
 # * WIP
 
+* todo patch for privledge esclation protection
+* https://googleprojectzero.blogspot.com/2018/09/a-cache-invalidation-bug-in-linux.html
+* for 4.14~ similar to dirty.c root esclation patching for protection
 
 * 10-02-2019
 
