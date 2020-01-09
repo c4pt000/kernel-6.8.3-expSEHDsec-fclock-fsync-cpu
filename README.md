@@ -478,17 +478,16 @@ patched for 4.4,
 <br>
 
 donate via google pay
-devdataspace@gmail.com
+
+bc1q7ap44v0e8tz506fqvdygd7zztluvrl73pd527q
 
 or 
 
-if you found this useful, anything helps
-
-1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
+if you found this useful,
 
 https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
 
 
-![s1](https://i.imgur.com/py97aYA.png)
+
 
 
