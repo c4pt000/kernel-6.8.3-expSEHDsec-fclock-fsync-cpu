@@ -6,6 +6,26 @@ ELAN trackpad support (hp dw0045nr->hp dw0037nr)
 <br>
 https://drive.google.com/file/d/17NaOX2-spHK_4Q3s0GFbbBFrVHNGpKvl/view?usp=sharing
 
+<br>
+/etc/modprobe.d/kvm.conf
+<br>
+options kvm_intel nested=1
+<br>
+options kvm ignore_msrs=1
+<br>
+options vfio_iommu_type1 allow_unsafe_interrupts=1
+<br>
+options kvm_intel emulate_invalid_guest_state=0
+<br>
+<br>
+<br>
+<br>
+
+/etc/default/grub
+<br>
+iommu=pt vga=0x37f  intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 pcie_acs_override=downstream
+<br>
+
 # * WIP
 
 * todo patch for privledge esclation protection
