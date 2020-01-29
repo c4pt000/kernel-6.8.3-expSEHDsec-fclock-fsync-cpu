@@ -1,3 +1,7 @@
+update 01-29-2020
+ELAN trackpad support
+https://drive.google.com/file/d/17NaOX2-spHK_4Q3s0GFbbBFrVHNGpKvl/view?usp=sharing
+
 # * WIP
 
 * todo patch for privledge esclation protection
