@@ -1,5 +1,9 @@
-update 01-29-2020
+* update 01-29-2020
+<br>
+testing initial (100hz, no webcam, testing initial, no deb pkg yet)
+<br>
 ELAN trackpad support
+<br>
 https://drive.google.com/file/d/17NaOX2-spHK_4Q3s0GFbbBFrVHNGpKvl/view?usp=sharing
 
 # * WIP
