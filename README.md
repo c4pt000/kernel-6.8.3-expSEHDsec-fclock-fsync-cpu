@@ -1,6 +1,6 @@
 * update 01-29-2020
 <br>
-testing initial (100hz, no webcam, testing initial, no deb pkg yet)
+testing initial (100hz, no webcam, testing initial, no deb pkg yet RPMS only)
 <br>
 ELAN trackpad support
 <br>
