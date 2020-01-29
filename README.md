@@ -30,6 +30,8 @@ options kvm_intel emulate_invalid_guest_state=0
 
 /etc/default/grub
 <br>
+after rhgb....
+<br>
 iommu=pt vga=0x37f  intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 pcie_acs_override=downstream
 <br>
 
