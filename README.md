@@ -5,6 +5,13 @@ testing initial (100hz, no webcam, testing initial, no deb pkg yet RPMS only)
 ELAN trackpad support (hp dw0045nr->hp dw0037nr)
 <br>
 https://drive.google.com/file/d/17NaOX2-spHK_4Q3s0GFbbBFrVHNGpKvl/view?usp=sharing
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <br>
 /etc/modprobe.d/kvm.conf
