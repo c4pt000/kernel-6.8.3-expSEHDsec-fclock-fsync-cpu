@@ -37,7 +37,9 @@ modprobe 8812au
 <br>
 <br>
 * update 01-30-2020
+<br>
 monitor mode for interfaces fixed for "no wireless extensions" in ifconfig / iwconfig wifite + kali + kismet support etc
+<br>
 CONFIG_CFG80211_WEXT=y
 <br>
 <br>
