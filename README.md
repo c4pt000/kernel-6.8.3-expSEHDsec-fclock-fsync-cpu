@@ -6,9 +6,7 @@
   make install
   modprobe 8821ce
 ```
-<br>
-ifconfig wlp0s20f0u2 mode monitor
-<br>
+
 ```sudo -i
 cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8xxxu-mod
 make -j16
@@ -16,6 +14,8 @@ make install
 modprobe 8812au
 ```
 <br>
+as a supposed? ifconfig wlp0s20f0u2 mode monitor          < for 8812au (88XXau)
+
 <br>
 * update 01-29-2020
 <br>
