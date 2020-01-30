@@ -3,6 +3,9 @@
 CONFIG_CFG80211_WEXT=y
 ^^ in the process of rebottling to RPM -> DEB
 
+RPM
+https://drive.google.com/file/d/1sdEwID4Y1WyDHSG5-4cPMcrNvZlv80QY/view?usp=sharing
+
 * update 01-30-2020 
 # NOT STABLE for monitoring of AP with rtl8821ce or rtl8812au posted to fix (again) to run both drivers patched in userspace of 4.18.0 and or 5.2 , 5.4
 
