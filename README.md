@@ -1,13 +1,12 @@
 
-* update 01-30-2020
-CONFIG_CFG80211_WEXT=y
-^^ in the process of rebottling to RPM -> DEB
 
+
+
+trackpad support + monitor support wifi interface
 RPM
 https://drive.google.com/file/d/1sdEwID4Y1WyDHSG5-4cPMcrNvZlv80QY/view?usp=sharing
 
-* update 01-30-2020 
-# NOT STABLE for monitoring of AP with rtl8821ce or rtl8812au posted to fix (again) to run both drivers patched in userspace of 4.18.0 and or 5.2 , 5.4
+
 
  ```
   sudo -i
@@ -33,9 +32,6 @@ as a supposed? ifconfig wlp0s20f0u2 mode monitor          < for 8812au (88XXau)
 <br>
 * for 8821ce
 <br>
-ELAN trackpad support (hp dw0045nr->hp dw0037nr)
-<br>
-https://drive.google.com/file/d/15m8Crgy_b5WmqVOBD8ihHADe6rMGSE-N/view?usp=sharing
 <br>
 <br>
 <br>
@@ -43,7 +39,10 @@ https://drive.google.com/file/d/15m8Crgy_b5WmqVOBD8ihHADe6rMGSE-N/view?usp=shari
 <br>
 <br>
 <br>
-
+<br>
+* update 01-30-2020
+CONFIG_CFG80211_WEXT=y
+^^ in the process of rebottling to RPM -> DEB
 <br>
 /etc/modprobe.d/kvm.conf
 <br>
