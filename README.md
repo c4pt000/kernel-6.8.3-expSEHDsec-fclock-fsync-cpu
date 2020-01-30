@@ -1,6 +1,21 @@
 * update 01-29-2020
+install kernel-devel kernel-headers kernel as usual        DEBS soon
+for 8821ce
 <br>
-testing initial (100hz, no webcam, testing initial, no deb pkg yet RPMS only)
+ ```
+  sudo -i
+  cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8821ce/
+  make -j16
+  make install
+  modprobe 8821ce
+```
+for 8812au (kali high powered realtek alfa usb 3.0 war driving wifi 802.11ac)
+```sudo -i
+cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8xxxu-mod
+make -j16
+make install
+modprobe 8812au
+```
 <br>
 ELAN trackpad support (hp dw0045nr->hp dw0037nr)
 <br>
