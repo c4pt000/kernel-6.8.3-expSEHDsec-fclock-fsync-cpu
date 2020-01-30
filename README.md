@@ -29,27 +29,29 @@ make install
 modprobe 8812au
 ```
 <br>
-as a supposed? ifconfig wlp0s20f0u2 mode monitor          < for 8812au (88XXau)
 
-<br>
-* update 01-29-2020
-<br>
-* install kernel-devel kernel-headers kernel as usual        DEBS soon
-<br>
-* for 8821ce
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
 <br>
 <br>
 * update 01-30-2020
+monitor mode for interfaces fixed for "no wireless extensions" in ifconfig / iwconfig wifite + kali + kismet support etc
 CONFIG_CFG80211_WEXT=y
-^^ in the process of rebottling to RPM -> DEB
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 /etc/modprobe.d/kvm.conf
 <br>
 options kvm_intel nested=1
