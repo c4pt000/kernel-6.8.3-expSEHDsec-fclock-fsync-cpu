@@ -4,10 +4,14 @@
 
 trackpad support + monitor support wifi interface
 <br>
-RPM
+RPMs
 <br>
 https://drive.google.com/file/d/1sdEwID4Y1WyDHSG5-4cPMcrNvZlv80QY/view?usp=sharing
-
+<br>
+DEBs
+<br>
+https://drive.google.com/file/d/1v6Ui4tAKUgqEyu3yUB8aoUpma2CqDSOL/view?usp=sharing
+<br>
 
 
  ```
