@@ -6,7 +6,11 @@
   make install
   modprobe 8821ce
 ```
-
+<br>
+see https://github.com/c4pt000/kernel-4.4.167expSEHDsec-4.18.0-trackpad/blob/master/RTL88XXau.tar.gz
+<br>
+for monitor mode ^^ rework current kernel and add moon logo WIP
+<br>
 for 8812au (kali high powered realtek alfa usb 3.0 war driving wifi 802.11ac)
 ```sudo -i
 cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8xxxu-mod
