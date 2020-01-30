@@ -1,4 +1,7 @@
 
+* update 01-30-2020 
+# NOT STABLE for monitoring of AP with rtl8821ce or rtl8812au posted to fix (again to run both drivers patched in userspace of 4.18.0 and or 5.2 , 5.4)
+
  ```
   sudo -i
   cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8821ce/
