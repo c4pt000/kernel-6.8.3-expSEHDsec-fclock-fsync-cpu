@@ -1,7 +1,4 @@
-* update 01-29-2020
-install kernel-devel kernel-headers kernel as usual        DEBS soon
-for 8821ce
-<br>
+
  ```
   sudo -i
   cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8821ce/
