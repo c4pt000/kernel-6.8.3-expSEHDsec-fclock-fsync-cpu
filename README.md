@@ -16,14 +16,14 @@ https://drive.google.com/file/d/1v6Ui4tAKUgqEyu3yUB8aoUpma2CqDSOL/view?usp=shari
 
  ```
   sudo -i
-  cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8821ce/
+  cd /usr/src/kernels/4.18.0-penguin-expSEHDsec+T//drivers/net/wireless/realtek/rtl8821ce/
   make -j16
   make install
   modprobe 8821ce
 ```
 
 ```sudo -i
-cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8xxxu-mod
+cd /usr/src/kernels/4.18.0-penguin-expSEHDsec+T/drivers/net/wireless/realtek/rtl8xxxu-mod
 make -j16
 make install
 modprobe 8812au
