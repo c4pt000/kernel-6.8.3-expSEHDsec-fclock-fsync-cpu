@@ -17,8 +17,10 @@ modprobe 8812au
 <br>
 <br>
 * update 01-29-2020
-install kernel-devel kernel-headers kernel as usual        DEBS soon
-for 8821ce
+<br>
+* install kernel-devel kernel-headers kernel as usual        DEBS soon
+<br>
+* for 8821ce
 <br>
 ELAN trackpad support (hp dw0045nr->hp dw0037nr)
 <br>
