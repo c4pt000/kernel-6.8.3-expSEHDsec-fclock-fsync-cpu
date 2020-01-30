@@ -6,7 +6,7 @@
   make install
   modprobe 8821ce
 ```
-<br>
+
 for 8812au (kali high powered realtek alfa usb 3.0 war driving wifi 802.11ac)
 ```sudo -i
 cd /usr/src/kernels/4.18.0-penguin-expSEHDsec.trkpa/drivers/net/wireless/realtek/rtl8xxxu-mod
