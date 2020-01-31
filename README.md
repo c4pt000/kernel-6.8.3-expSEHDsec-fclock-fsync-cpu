@@ -6,7 +6,18 @@
 * 0.0005 btc @ 4.27 or 0.0002 ~     (most fees are like 0.0005 if you figure)  
 * just figuring here loosely about bitcoin donation would be around $10 minimum just by mathematical design? considering $5 fee to send at 0.0005 and sending 0.0005 as $5 encompasses  0.001 around $10,
 
-* no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
+* fixed -> 9:38am UTC no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
+* for centos 8 / rhel 8 red hat is moving toward nftables, best suggestion for KVM / DOCKER / libvirt networking -> disabled firewalld / disable nftables -> seek UFW for firewall or other firewall variants,
+changing firewalld.conf "nftables" to "iptables" (since nftables is a newer solution for iptables as an improved iptables via RHEL bug report https://bugzilla.redhat.com/show_bug.cgi?id=1623868#c7 noticing libvirtd networking breaks in F29 and CENTOS 8 ? as discovered from my own use in the last 24 hrs notice ? CVE ? or BUG report here on libvirtd
+https://bugzilla.redhat.com/show_bug.cgi?id=1623868
+
+
+also within the last 8 hours accidentally disabled "NF_NAT in the kernel config by accidentally hitting a keyboard button disabling "M" to load NAT based firewall as one of many options for NAT based firewalling in the kernel
+```
+/etc/firewalld/firewalld.conf
+------------------------
+FirewallBackend=iptables                from (nftables)
+```
 * 01-30-2020 -> overlooked iptables NAT rule for bridge creation,
 trackpad support + monitor support wifi interface
 <br>
