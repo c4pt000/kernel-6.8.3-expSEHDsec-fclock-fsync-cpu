@@ -13,10 +13,10 @@ trackpad support + monitor support wifi interface
 RPMs              (fixed config as of 9:28am UTC)
 <br>
 https://drive.google.com/file/d/1_6dRvvMuw9itRKyXHtsNC0AeUg_6EPuk/view
+<br>
 DEBs              (fixed config as of 9:28am UTC)
 <br>
 https://drive.google.com/file/d/1P8a6HsjxBunOTGBuMwBFCVwKDPsNjPyJ/view
-
 <br>
 
 
