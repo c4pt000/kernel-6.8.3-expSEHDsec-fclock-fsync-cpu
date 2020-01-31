@@ -19,6 +19,7 @@ also within the last 8 hours accidentally disabled "NF_NAT in the kernel config 
 FirewallBackend=iptables                from (nftables)
 ```
 * 01-30-2020 -> overlooked iptables NAT rule for bridge creation,
+<br>
 trackpad support + monitor support wifi interface
 <br>
 RPMs              (fixed config as of 9:28am UTC)
