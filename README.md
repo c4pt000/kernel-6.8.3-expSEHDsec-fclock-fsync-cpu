@@ -6,8 +6,8 @@
 * 0.0005 btc @ 4.27 or 0.0002 ~     (most fees are like 0.0005 if you figure)  
 * just figuring here loosely about bitcoin donation would be around $10 minimum just by mathematical design? considering $5 fee to send at 0.0005 and sending 0.0005 as $5 encompasses  0.001 around $10,
 
-
-
+* no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
+* 01-30-2020 -> overlooked iptables NAT rule for bridge creation,
 trackpad support + monitor support wifi interface
 <br>
 RPMs
