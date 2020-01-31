@@ -10,13 +10,13 @@
 * 01-30-2020 -> overlooked iptables NAT rule for bridge creation,
 trackpad support + monitor support wifi interface
 <br>
-RPMs
+RPMs              (fixed config as of 9:28am UTC)
 <br>
-https://drive.google.com/file/d/1sdEwID4Y1WyDHSG5-4cPMcrNvZlv80QY/view?usp=sharing
+https://drive.google.com/file/d/1_6dRvvMuw9itRKyXHtsNC0AeUg_6EPuk/view
+DEBs              (fixed config as of 9:28am UTC)
 <br>
-DEBs
-<br>
-https://drive.google.com/file/d/1v6Ui4tAKUgqEyu3yUB8aoUpma2CqDSOL/view?usp=sharing
+https://drive.google.com/file/d/1P8a6HsjxBunOTGBuMwBFCVwKDPsNjPyJ/view
+
 <br>
 
 
