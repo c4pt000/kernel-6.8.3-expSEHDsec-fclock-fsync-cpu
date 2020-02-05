@@ -588,3 +588,9 @@ https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
 
 
 
+https://www.binance.com/en/buy-sell-crypto/channel-list/buy/USD/BTC/10
+
+
+on average its $5.00 USD to transmit bitcoin most websites
+
+
