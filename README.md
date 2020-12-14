@@ -1,10 +1,6 @@
 
-1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh
-<p align="center"><img src="https://github.com/c4pt000/SKYTUNE-docker/blob/master/deposit.png" width="80"></p>
 
-* ^^
-* 0.0005 btc @ 4.27 or 0.0002 ~     (most fees are like 0.0005 if you figure)  
-* just figuring here loosely about bitcoin donation would be around $10 minimum just by mathematical design? considering $5 fee to send at 0.0005 and sending 0.0005 as $5 encompasses  0.001 around $10,
+
 
 * fixed -> 9:38am UTC no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
 * for centos 8 / rhel 8 red hat is moving toward nftables, best suggestion for KVM / DOCKER / libvirt networking -> disabled firewalld / disable nftables -> seek UFW for firewall or other firewall variants,
@@ -580,9 +576,5 @@ patched for 4.4,
 
 
 
-https://www.binance.com/en/buy-sell-crypto/channel-list/buy/USD/BTC/10
-
-
-on average its $5.00 USD to transmit bitcoin on most websites dealing with bitcoin 
 
 
