@@ -1,6 +1,14 @@
 
 update for penguin-expSEHDsec-4.18 -> added support for HFS volumes to mount read/write
+* RPMs from now on only debian/ubuntu/kali users should use the packages 'dpkg and alien to convert RPMs to DEBs on their systems'
+<br>
+<br>
 https://drive.google.com/file/d/1Y1c4B5yMNZ6UyGZk4YVSDN6FLiDUBF9W/view?usp=sharing
+
+<br>
+<br>
+<br>
+<br>
 
 
 * fixed -> 9:38am UTC no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
