@@ -1,5 +1,6 @@
 
-
+update for penguin-expSEHDsec-4.18 -> added support for HFS volumes to mount read/write
+https://drive.google.com/file/d/1Y1c4B5yMNZ6UyGZk4YVSDN6FLiDUBF9W/view?usp=sharing
 
 
 * fixed -> 9:38am UTC no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
