@@ -1,8 +1,18 @@
 
 * RPMs from now on only debian/ubuntu/kali users should use the packages 'dpkg and alien to convert RPMs to DEBs on their systems'
+```
+alien --scripts *.rpm
+```
 <br>
 <br>
-12-30-2020 update for penguin-expSEHDsec-4.18 -> added support for HFS volumes to mount read/write
+<br>
+* 01-09-2021 update penguin-expSEHDsec-5.9.16 -> (NVIDIA-Linux-x86_64-450.80.02.run not supported NVIDIA users use NVIDIA-Linux-x86_64-460.32.03.run) 
+https://drive.google.com/file/d/1LT_rL0dtnRApI0V-MAIlzVvYlp7-fDBi/view?usp=sharing
+<br>
+<br>
+<br>
+<br>
+* 12-30-2020 update for penguin-expSEHDsec-4.18 -> added support for HFS volumes to mount read/write
 https://drive.google.com/file/d/1Y1c4B5yMNZ6UyGZk4YVSDN6FLiDUBF9W/view?usp=sharing
 
 <br>
