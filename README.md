@@ -400,7 +400,7 @@ modprobe 88XXau
 
 # kernel-4.4.167expSEHDsec
 kernel-4.4.167expSEHDsec
-"hardware candy" security kernel, 
+ security kernel, "hardware candy"
 
 
 
