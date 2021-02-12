@@ -7,8 +7,10 @@ alien --scripts *.rpm
 <br>
 <br>
 * 01-09-2021 update penguin-expSEHDsec-5.9.16 -> (NVIDIA-Linux-x86_64-450.80.02.run not supported NVIDIA users use NVIDIA-Linux-x86_64-460.32.03.run) 
+
+* 02-11-2021 improvements for Xen, still supporting KVM + Docker
 <br>
-https://drive.google.com/file/d/1LT_rL0dtnRApI0V-MAIlzVvYlp7-fDBi/view?usp=sharing
+https://drive.google.com/file/d/1iIbS3sJIwZq8d73TbcMDmD40YJIICmMK/view?usp=sharing
 <br>
 <br>
 <br>
