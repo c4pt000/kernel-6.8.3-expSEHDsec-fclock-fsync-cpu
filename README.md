@@ -114,8 +114,16 @@ after rhgb....
 /etc/default/grub
 <br>
 <br>
+
 iommu=pt vga=0x37f  intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 pcie_acs_override=downstream
+
 <br>
+
+or
+
+<br>
+
+iommu=pt vga=792 intel_iommu=on cgroup_enable=memory,namespace systemd.unified_cgroup_hierarchy=0 pcie_acs_override=downstream
 
 # * WIP
 
