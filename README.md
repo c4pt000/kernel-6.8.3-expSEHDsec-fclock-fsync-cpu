@@ -25,6 +25,14 @@ https://drive.google.com/file/d/1Y1c4B5yMNZ6UyGZk4YVSDN6FLiDUBF9W/view?usp=shari
 <br>
 <br>
 
+* noticed this IRQ article this kernel 5.9.16 *does* have IRQ accounting and custom CPU TICK
+https://tanelpoder.com/posts/linux-hiding-interrupt-cpu-usage/
+```
+cat /boot/config-5.9.16-penguin-expSEHDsec+T | grep TICK_CPU_ACC
+CONFIG_TICK_CPU_ACCOUNTING=y
+$ cat /boot/config-5.9.16-penguin-expSEHDsec+T | grep CONFIG_IRQ_TIME_ACCOUNTING=y 
+CONFIG_IRQ_TIME_ACCOUNTING=y
+```
 
 * fixed -> 9:38am UTC no IPTABLES for docker -> KVM.,    see previous kernel for docker / kvm WIP ->>
 * for centos 8 / rhel 8 red hat is moving toward nftables, best suggestion for KVM / DOCKER / libvirt networking -> disabled firewalld / disable nftables -> seek UFW for firewall or other firewall variants,
