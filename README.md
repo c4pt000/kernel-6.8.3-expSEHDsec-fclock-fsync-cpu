@@ -15,7 +15,9 @@ https://drive.google.com/file/d/13DSDjkHRqFgw3NKkTS_d88lXAO9r5Lg9/view?usp=shari
 
 <br>
  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)
+ <br>
 * 01-09-2021 update penguin-expSEHDsec-5.9.16 -> (NVIDIA-Linux-x86_64-450.80.02.run not supported NVIDIA users use NVIDIA-Linux-x86_64-460.32.03.run) 
+<br>
 * 0-11-2021 improvements for Xen, still supporting KVM + Docker
 <br>
 link removed due to CVE discovery of VF_SOCK
