@@ -6,7 +6,7 @@ alien --scripts *.rpm
 <br>
 <br>
 
-* 03-04-2021 update penguin-expSEHDsec-5.11.0 -> (NVIDIA-Linux-x86_64-460.56.run  not supported NVIDIA users use NVIDIA-Linux-x86_64-460.56.run ) 
+* 03-04-2021 update penguin-expSEHDsec-5.11.0 -> (NVIDIA-Linux-x86_64-460.56.run)
 * improvements for Xen, still supporting KVM + Docker
 # patched for https://www.helpnetsecurity.com/2021/03/03/cve-2021-26708/ (CVE-2021-26708)
 
