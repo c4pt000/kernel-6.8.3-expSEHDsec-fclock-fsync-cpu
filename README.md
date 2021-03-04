@@ -5,20 +5,28 @@ alien --scripts *.rpm
 ```
 <br>
 <br>
-<br>
 
+* 03-04-2021 update penguin-expSEHDsec-5.11.0 -> (NVIDIA-Linux-x86_64-460.56.run  not supported NVIDIA users use NVIDIA-Linux-x86_64-460.56.run ) 
+* improvements for Xen, still supporting KVM + Docker
+# patched for https://www.helpnetsecurity.com/2021/03/03/cve-2021-26708/ (CVE-2021-26708)
+
+https://drive.google.com/file/d/13DSDjkHRqFgw3NKkTS_d88lXAO9r5Lg9/view?usp=sharing
+
+
+<br>
+ (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)
 * 01-09-2021 update penguin-expSEHDsec-5.9.16 -> (NVIDIA-Linux-x86_64-450.80.02.run not supported NVIDIA users use NVIDIA-Linux-x86_64-460.32.03.run) 
+* 0-11-2021 improvements for Xen, still supporting KVM + Docker
+<br>
+link removed due to CVE discovery of VF_SOCK
+<br>
+<br>
+<br>
+<br>
 
-* 02-11-2021 improvements for Xen, still supporting KVM + Docker
-<br>
-https://drive.google.com/file/d/1iIbS3sJIwZq8d73TbcMDmD40YJIICmMK/view?usp=sharing
-<br>
-<br>
-<br>
-<br>
-
+ (CVE-2021-26708) (CVE-2021-26708) (CVE-2021-26708) (CVE-2021-26708) (CVE-2021-26708) (CVE-2021-26708) (CVE-2021-26708)
 * 12-30-2020 update for penguin-expSEHDsec-4.18 -> added support for HFS volumes to mount read/write
-https://drive.google.com/file/d/1Y1c4B5yMNZ6UyGZk4YVSDN6FLiDUBF9W/view?usp=sharing
+removed for CVE discovery
 
 <br>
 <br>
@@ -47,20 +55,7 @@ also within the last 8 hours accidentally disabled "NF_NAT in the kernel config 
 FirewallBackend=iptables                from (nftables)
 ```
 
-* 01-30-2020 -> overlooked iptables NAT rule for bridge creation,
-
-<br>
-trackpad support + monitor support wifi interface
-<br>
-RPMs              (fixed config as of 9:28am UTC)
-<br>
-https://drive.google.com/file/d/1_6dRvvMuw9itRKyXHtsNC0AeUg_6EPuk/view
-<br>
-DEBs              (fixed config as of 9:28am UTC)
-<br>
-https://drive.google.com/file/d/1P8a6HsjxBunOTGBuMwBFCVwKDPsNjPyJ/view
-<br>
-
+* 01-30-2020 ->  (CVE-2021-26708)
 
  ```
   sudo -i
@@ -282,14 +277,7 @@ todo -> trackpad support (hp dw0037nr) (hp dw0045nr)
 
 * ssd support
 
-* RPMs
-
-https://drive.google.com/file/d/1n7xNrGHENFmX66MqK4TCf1VkAlvrrmeZ/view?usp=sharing
-
-
-* DEBs
-
-https://drive.google.com/file/d/1aKDApBHkB0__uPo4vUnR9Izz9e9k361M/view
+REMOVED for  (CVE-2021-26708)
 
 
 
@@ -347,16 +335,7 @@ uvc device support http://www.ideasonboard.org/uvc/
 <br>
 <br>
 
-RPMs
-<br>
-https://drive.google.com/file/d/1iNiEFi4n0lUBYyMIYLyPMhHi9YN99dOf/view?usp=sharing
-<br>
-DEBs
-<br>
-https://drive.google.com/file/d/1hIVXw5cyy_eEF7r7T5xr7XpbFB9bJmbz/view?usp=sharing
-<br>
-<br>
-<br>
+REMOVED for  (CVE-2021-26708)
 
 modprobe uvcvideo
 <br>
@@ -387,14 +366,9 @@ uvc device support http://www.ideasonboard.org/uvc/
 # * new 88XXau module support (moonLogo, working for .debs, still need to throughly check threw the 88XXau module loading for the penguin .debs)
 <br>
 RPMs
-<br>
-https://drive.google.com/uc?id=143gCFTmYXbn0yU7p5LxWQXQxlYiLNnJt&export=download
-<br>
-DEBs
-<br>
-https://drive.google.com/file/d/18ysoII0cm8A2oUojNsUNcj_0ICvUMdo1/view
-<br>
-<br>
+
+REMOVED FOR  (CVE-2021-26708)
+
 modprobe uvcvideo
 <br>
 modprobe hid_xpadneo
@@ -563,15 +537,11 @@ modprobe hid_xpadneo
 
 02-07-2019
 * push for i915 support, intel graphics
-https://drive.google.com/open?id=1zz0nqB3DOYScDOZm43kkjs1H4oJavTjH
+REMOVED for  (CVE-2021-26708)
 
 rpms (01-07-2019- push for NBD(qemu-img), OVERLAY-FS, NFS options) *Docker support enabled
 
-* https://drive.google.com/open?id=1BsXnWMyJ5Tu2jYBr27SXLvya-bAqf983
-
-.debs (untested)
-
-* https://drive.google.com/open?id=1-RpxCWD9Hml09cEToIrdNyU0he8xZvc0
+REMOVED for  (CVE-2021-26708)
 
 FGLRX legacy HD 6XXX/7XXX support, (outside of AMDGPU, AMDGPU-PRO support)
 patched for 4.4,
