@@ -7,7 +7,9 @@ alien --scripts *.rpm
 03-14-2021
 <br>
 * CVE-2021-27365: heap buffer overflow (Local Privilege Escalation, Information Leak, Denial of Service)
+<br>
 * CVE-2021-27363: kernel pointer leak (Information Leak)
+<br>
 * CVE-2021-27364: out-of-bounds read (Information Leak, Denial of Service)
 <br>
 https://www.bleepingcomputer.com/news/security/15-year-old-linux-kernel-bugs-let-attackers-gain-root-privileges/
