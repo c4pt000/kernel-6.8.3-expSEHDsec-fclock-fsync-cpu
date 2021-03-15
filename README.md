@@ -4,14 +4,24 @@
 alien --scripts *.rpm
 ```
 <br>
+03-14-2021
+<br>
+* CVE-2021-27365: heap buffer overflow (Local Privilege Escalation, Information Leak, Denial of Service)
+* CVE-2021-27363: kernel pointer leak (Information Leak)
+* CVE-2021-27364: out-of-bounds read (Information Leak, Denial of Service)
+<br>
+https://www.bleepingcomputer.com/news/security/15-year-old-linux-kernel-bugs-let-attackers-gain-root-privileges/
+<br>
+https://drive.google.com/file/d/1E8UfuHtr5O-NBtQtnWE1m3lOS8uLmAbx/view?usp=sharing
+<br>
+penguin_hfs-5.11.6_expSEHDsec+T.xen.tar.gz
 <br>
 
 * 03-04-2021 update penguin-expSEHDsec-5.11.0 -> (NVIDIA-Linux-x86_64-460.56.run)
 * improvements for Xen, still supporting KVM + Docker
 # patched for https://www.helpnetsecurity.com/2021/03/03/cve-2021-26708/ (CVE-2021-26708)
 
-https://drive.google.com/file/d/13DSDjkHRqFgw3NKkTS_d88lXAO9r5Lg9/view?usp=sharing
-
+03-14-2021 link removed due to newer CVE effecting root escalation
 
 <br>
  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)  (CVE-2021-26708)
