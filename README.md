@@ -1,3 +1,24 @@
+# SOURCE build based on 5.11.6 with .config changes for expSEHDsec penguin_logo, hid-xpadneo joystick module
+```
+(or docker run -it -d fedora:33)
+mkdir -p /opt/kernel-build
+cd /opt/kernel-build
+wget https://raw.githubusercontent.com/c4pt000/kernel-5.11.0-expSEHDsec/master/build-kernel.sh
+source build-kernel.sh
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 * RPMs from now on only debian/ubuntu/kali users should use the packages 'dpkg and alien to convert RPMs to DEBs on their systems'
 ```
