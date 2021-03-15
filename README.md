@@ -22,6 +22,8 @@ penguin_hfs-5.11.6_expSEHDsec+T.xen.tar.gz
 <br>
 https://drive.google.com/file/d/1E8UfuHtr5O-NBtQtnWE1m3lOS8uLmAbx/view?usp=sharing
 <br>
+All three vulnerabilities are patched as of 5.11.4, 5.10.21, 5.4.103, 4.19.179, 4.14.224, 4.9.260, and 4.4.260, and patches became available in mainline Linux kernel on March 7th. No patches will be released for EOL unsupported kernels versions like 3.x and 2.6.23.
+
 
 
 * 03-04-2021 update penguin-expSEHDsec-5.11.0 -> (NVIDIA-Linux-x86_64-460.56.run)
