@@ -3,6 +3,7 @@
 (or docker run -it -d fedora:33)
 mkdir -p /opt/kernel-build
 cd /opt/kernel-build
+yum install wget -y
 wget https://raw.githubusercontent.com/c4pt000/kernel-5.11.0-expSEHDsec/master/build-kernel.sh
 source build-kernel.sh
 ```
