@@ -7,8 +7,13 @@
 # releases RPMs
 # https://github.com/c4pt000/kernel-5.11.6-expSEHDsec/releases/tag/5.11.6-expSEHDsec
 
-# CHANGES/updates added more support for cgroups and virtio drivers by enabling flags, changed tick functions slightly
--> https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt
+* CHANGES/updates added more support for cgroups and virtio drivers by enabling flags, changed tick functions slightly  https://www.kernel.org/doc/Documentation/cgroup-v1/blkio-controller.txt for improved docker support with experimental docker nested inside of docker nested VMs on the same host for other experimentation 
+
+# nested docker for running docker inside of docker on the same host
+```
+docker run -it --privileged -d  c4pt/fedora:34 /usr/sbin/init
+```
+
 
 CONFIG_BLK_CGROUP_IOLATENCY=y
 CONFIG_BLK_CGROUP_IOCOST=y
