@@ -1,7 +1,241 @@
 * update 04-24-2021
 
-releases RPMs
+# releases RPMs
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec/releases/tag/5.11.6-expSEHDsec
+
+# CHANGES/updates added more support for cgroup and virtio drivers by enabling flags, changed tick functions slightly
+
+
+CONFIG_BLK_CGROUP_IOLATENCY=y
+CONFIG_BLK_CGROUP_IOCOST=y
+
+
+
+
+
+
+CONFIG_INIT_ON_FREE_DEFAULT_ON:                                                                                                                      │  
+  │                                                                                                                                                      │  
+  │ This has the effect of setting "init_on_free=1" on the kernel                                                                                        │  
+  │ command line. This can be disabled with "init_on_free=0".           
+
+
+CONFIG_INIT_ON_ALLOC_DEFAULT_ON:                                                                                                                     │  
+  │                                                                                                                                                      │  
+  │ This has the effect of setting "init_on_alloc=1" on the kernel                                                                                       │  
+  │ command line. This can be disabled with "init_on_alloc=0".                                                                                           │  
+  │ When "init_on_alloc" is enabled, all page allocator and slab   
+
+
+
+
+
+
+  [*] Enable memcg SLUB sysfs support by default                                                              │ │  
+   [*] Disable heap randomization     
+
+  [*]   ACRN Guest support                                                                                    │ │  
+
+ TSX is enabled on TSX capable HW that is believed to be safe against                                                                                 │  
+  │ side channel attacks- equals the tsx=auto command line parameter.  
+
+  [*] Software Guard eXtensions (SGX)                                                                         │ │  
+
+  [*] Disable the 32-bit vDSO (needed for glibc 2.3.3)                                                        │ │  
+
+CONFIG_COMPAT_VDSO=y
+CONFIG_HAVE_GENERIC_VDSO=y
+CONFIG_GENERIC_VDSO_TIME_NS=y
+
+CONFIG_LEGACY_VSYSCALL_XONLY:                                                                                                                        │  
+  │                                                                                                                                                      │  
+  │ The kernel traps and emulates calls into the fixed vsyscall                                                                                          │  
+  │ address mapping and does not allow reads.  This                                                                                                      │  
+  │ configuration is recommended when userspace might use the                                                                                            │  
+  │ legacy vsyscall area but support for legacy binary                                                                                                   │  
+  │ instrumentation of legacy code is not needed.  It mitigates                                                                                          │  
+  │ certain uses of the vsyscall area as an ASLR-bypassing                                                                                               │  
+  │ buffer.                                   
+
+
+
+ [*]   Timer events oriented (TEO) governor (for tickless systems)                                           │ │  
+ [*]   Haltpoll governor (for virtualized systems)   
+
+ [ ] Enable core dump support  <- disabled for security 
+ 
+ CONFIG_HWPOISON_INJECT is not set <- same here
+
+ 
+
+
+CONFIG_Z3FOLD:                                                                                                                                       │  
+  │                                                                                                                                                      │  
+  │ A special purpose allocator for storing compressed pages.                                                                                            │  
+  │ It is designed to store up to three compressed pages per physical                                                                                    │  
+  │ page. It is a ZBUD derivative so the simplicity and determinism are                                                                                  │  
+  │ still there.  
+
+
+
+  [*]   Enable the compressed cache for swap pages by default                                                 │ │  
+
+
+
+
+
+ CONFIG_CMA:                                                                                                                                          │  
+  │                                                                                                                                                      │  
+  │ This enables the Contiguous Memory Allocator which allows other                                                                                      │  
+  │ subsystems to allocate big physically-contiguous blocks of memory.                                                                                   │  
+  │ CMA reserves a region of memory and allows only movable pages to                                                                                     │  
+  │ be allocated from it. This way, the kernel can use the memory for                                                                                    │  
+  │ pagecache and when a subsystem requests for contiguous area, the                                                                                     │  
+  │ allocated pages are migrated away to serve the contiguous request.         
+
+
+
+[*]   XFS Realtime subvolume support                                                                        │ │  
+[*]   XFS online metadata check support                                                                     │ │  
+[*]     XFS online metadata repair support                                                                  │ │  
+[*]   XFS Verbose Warnings      
+
+
+
+ <M>   Virtio Filesystem                                                                                     │ │  
+ [*]     Virtio Filesystem Direct Host Memory Access support (NEW)         
+
+
+
+
+
+ <M>   VirtualBox guest shared folder (vboxsf) support                                                       │ │  
+
+
+
+
+
+
+  [*] Select compiled-in fonts                                                                                │ │  
+  [*]   VGA 8x8 font                                                                                          │ │  
+  -*-   VGA 8x16 font                                                                                         │ │  
+  [*]   Mac console 6x11 font (not supported by all drivers)                                                  │ │  
+  [*]   console 7x14 font (not supported by all drivers)                                                      │ │  
+  [*]   Pearl (old m68k) console 8x8 font                                                                     │ │  
+  [*]   Acorn console 8x8 font                                                                                │ │  
+  [*]   Mini 4x6 font                                                                                         │ │  
+  [*]   Medium-size 6x10 font                                                                                 │ │  
+  [*]   console 10x18 font (not supported by all drivers)                                                     │ │  
+  [*] Sparc console 8x16 font                                                                                 │ │  
+  [*] Sparc console 12x22 font (not supported by all drivers)                                                 │ │  
+  [*] Terminus 16x32 font (not supported by all drivers)                                                      │ │  
+  [*] OLED 6x8 font        
+
+
+
+
+
+CONFIG_PRINTK_TIME:                                                                                                                                  │  
+  │                                                                                                                                                      │  
+  │ Selecting this option causes time stamps of the printk()                                                                                             │  
+  │ messages to be added to the output of the syslog() system                                                                                            │  
+  │ call and at the console.                                                                                                                             │  
+  │                                                                                                                                                      │  
+  │ The timestamp is always recorded internally, and exported                                                                                            │  
+  │ to /dev/kmsg. This flag just specifies if the timestamp should                                                                                       │  
+  │ be included, not that the timestamp is recorded.   
+
+disable of printk->syslog to /etc/default/grub option
+                                                                                                                                                     │  
+  │ The behavior is also controlled by the kernel command line                                                                                           │  
+  │ parameter printk.time=1. See
+
+
+  [*] Lock debugging: prove locking correctness                                                               │ │  
+  [*]   Enable raw_spinlock - spinlock nesting checks  
+
+
+
+* note had a problem with MUTEX had to change MUTEX debug flags to recompile NVIDIA-Linux-x86_64-460.56.run for current updated running kernel
+* this version still seems working as it did with 5.11.6 (Even though this is the same base and not a kernel subversion up 
+
+
+CONFIG_RT_MUTEXES=y
+CONFIG_MUTEX_SPIN_ON_OWNER=y
+# CONFIG_DEBUG_RT_MUTEXES is not set
+# CONFIG_DEBUG_MUTEXES is not set
+# CONFIG_DEBUG_WW_MUTEX_SLOWPATH is not set
+# CONFIG_WW_MUTEX_SELFTEST is not set
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
