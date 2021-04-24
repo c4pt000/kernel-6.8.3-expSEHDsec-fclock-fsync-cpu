@@ -155,7 +155,7 @@ CONFIG_PRINTK_TIME:
   to /dev/kmsg. This flag just specifies if the timestamp should                                                                                         
   be included, not that the timestamp is recorded.   
 
-disable of printk->syslog to /etc/default/grub option
+   disable of printk->syslog to /etc/default/grub option
                                                                                                                                                        
    The behavior is also controlled by the kernel command line                                                                                             
    parameter printk.time=1. See
@@ -168,84 +168,31 @@ disable of printk->syslog to /etc/default/grub option
 
 
 
-CONFIG_RT_MUTEXES=y
-CONFIG_MUTEX_SPIN_ON_OWNER=y
+ CONFIG_RT_MUTEXES=y
+ CONFIG_MUTEX_SPIN_ON_OWNER=y
 
-# CONFIG_DEBUG_RT_MUTEXES is not set
-# CONFIG_DEBUG_MUTEXES is not set
-# CONFIG_DEBUG_WW_MUTEX_SLOWPATH is not set
-# CONFIG_WW_MUTEX_SELFTEST is not set
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+ CONFIG_DEBUG_RT_MUTEXES is not set
+ CONFIG_DEBUG_MUTEXES is not set
+ CONFIG_DEBUG_WW_MUTEX_SLOWPATH is not set
+ CONFIG_WW_MUTEX_SELFTEST is not set
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 # SOURCE build based on 5.11.6 with .config changes for expSEHDsec penguin_logo, hid-xpadneo joystick module
