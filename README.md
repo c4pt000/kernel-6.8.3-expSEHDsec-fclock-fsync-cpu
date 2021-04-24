@@ -1,3 +1,10 @@
+* update 04-24-2021
+
+releases RPMs
+https://github.com/c4pt000/kernel-5.11.6-expSEHDsec/releases/tag/5.11.6-expSEHDsec
+
+
+
 # SOURCE build based on 5.11.6 with .config changes for expSEHDsec penguin_logo, hid-xpadneo joystick module
 ```
 (or docker run -it -d fedora:33)
