@@ -1,5 +1,9 @@
 * update 04-24-2021
 
+
+* note had a problem with MUTEX had to change MUTEX debug flags to recompile NVIDIA-Linux-x86_64-460.56.run for current updated running kernel
+* this version still seems working as it did with 5.11.6 (Even though this is the same base and not a kernel subversion up 
+
 # releases RPMs
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec/releases/tag/5.11.6-expSEHDsec
 
@@ -150,8 +154,6 @@ disable of printk->syslog to /etc/default/grub option
 
 
 
-* note had a problem with MUTEX had to change MUTEX debug flags to recompile NVIDIA-Linux-x86_64-460.56.run for current updated running kernel
-* this version still seems working as it did with 5.11.6 (Even though this is the same base and not a kernel subversion up 
 
 
 CONFIG_RT_MUTEXES=y
