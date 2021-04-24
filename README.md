@@ -11,7 +11,9 @@ CONFIG_BLK_CGROUP_IOCOST=y
 
 
 
+also disabled onboard PC speaker module,
 
+(an attempt to silence the terminal bell without a gui instead of setting a .bashrc bell-type disable 
 
 
 CONFIG_INIT_ON_FREE_DEFAULT_ON:                                                                                                                      │  
