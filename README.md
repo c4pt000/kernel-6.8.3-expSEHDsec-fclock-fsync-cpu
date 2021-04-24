@@ -14,16 +14,17 @@
 docker run -it --privileged -d  c4pt/fedora:34 /usr/sbin/init
 ```
 
-
+<br>
 CONFIG_BLK_CGROUP_IOLATENCY=y
+<br>
 CONFIG_BLK_CGROUP_IOCOST=y
-
+<br>
 
 
 also disabled onboard PC speaker module,
-
+<br>
 (an attempt to silence the terminal bell without a gui instead of setting a .bashrc bell-type disable 
-
+<br>
 
 ```
 
