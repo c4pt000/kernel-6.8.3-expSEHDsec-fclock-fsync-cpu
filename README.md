@@ -14,9 +14,7 @@ for docker directories linked from the host use:
 --------------------------------------------------
 -v /opt/your-dir:/opt/another-dir 
 ```
-# use caution when having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker 
-
-# running inside of docker or "nested" docker)
+* use caution when having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker running inside of docker or "nested" docker)
 
 * update 04-24-2021
 
