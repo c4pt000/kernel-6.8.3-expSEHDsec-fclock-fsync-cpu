@@ -1,4 +1,14 @@
-   * update 04-24-2021
+# current kernel recommends builds inside of docker containers for most projects whether c++ or other languages due to security functions with spinlocks, mutex, 
+
+# and compiler and stack hardening, recommened to build in docker guest environments for isolate building code from the host by working data directories to a docker 
+
+# guest, even docker for graphical IDEs, using -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix, use caution when 
+
+# having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker 
+
+# running inside of docker or "nested" docker)
+
+* update 04-24-2021
 
 
 * note had a problem with MUTEX had to change MUTEX debug flags to recompile NVIDIA-Linux-x86_64-460.56.run for current updated running kernel
