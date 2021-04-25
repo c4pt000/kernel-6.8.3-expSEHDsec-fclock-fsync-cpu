@@ -6,14 +6,14 @@
 docker for graphical IDEs, use:
 ```
 -----------------------------------------
--v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix, 
+-v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix
 ```
 for docker directories linked from the host use:
 ```
 --------------------------------------------------
--v /opt/your-dir:/opt/another-dir use caution when 
+-v /opt/your-dir:/opt/another-dir 
 ```
-# having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker 
+# use caution when having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker 
 
 # running inside of docker or "nested" docker)
 
