@@ -1,6 +1,6 @@
 # current kernel recommends builds inside of docker containers for most projects whether c++ or other languages due to security functions with spinlocks, mutex, 
 
-# and compiler and stack hardening, recommened to build in docker guest environments for isolated to build code seperate from the host by using working data directories to a docker 
+# and compiler and stack hardening enabled, recommened to build in docker guest environments for isolated to build code seperate from the host by using working data directories to a docker 
 
 # guest, even docker for graphical IDEs, using -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix, use caution when 
 
