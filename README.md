@@ -2,7 +2,7 @@
 
 # and compiler and stack hardening enabled, recommened to build in docker guest environments for isolated builds to build code seperate from the host by using working data directories to a docker 
 
-# guest, even docker for graphical IDEs, using -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix, use caution when 
+# guest, for docker for graphical IDEs, using -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix, for docker directories linked from the host use -v /opt/your-dir:/opt/another-dir use caution when 
 
 # having to run docker guest environments as --privileged with /usr/sbin/init for docker guests that are capables of running full fledged docker guest also (docker 
 
