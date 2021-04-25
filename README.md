@@ -1,6 +1,4 @@
-# current kernel recommends builds inside of docker containers for most projects whether c++ or other languages due to security functions with spinlocks, mutex, 
-
-# and compiler and stack hardening enabled, recommened to build in docker guest environments for isolated builds to build code seperate from the host by using working data directories to a docker guest, see the following :
+# current kernel recommended to build inside of docker containers for most projects whether they are c++ projects or other based on other languages due to newer security functions enabled with spinlocks, mutex, stack hardening, and other glibc compiler protection it is recommened to build in docker guest environments for isolated builds to build the code seperate from the host by using working data directories to a docker guest, see the following :
 
 * docker for graphical IDEs, use:
 ```
