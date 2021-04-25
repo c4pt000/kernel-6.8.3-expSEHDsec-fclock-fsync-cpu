@@ -10,6 +10,7 @@ docker for graphical IDEs, use:
 ```
 for docker directories linked from the host use:
 ```
+ -v    host    :      guest
 --------------------------------------------------
 -v /opt/your-dir:/opt/another-dir 
 ```
