@@ -41,6 +41,11 @@ CONFIG_BLK_CGROUP_IOLATENCY=y
 CONFIG_BLK_CGROUP_IOCOST=y
 <br>
 
+# SYSTEM SPLASH doesnt account for all cores in a system my system is 24 cores but the loading penguin splash only shows 18 cores, htop reveals how many cores total your system has, your amount of cores will vary based on system,   less than 16 cores is visible in the penguin splash as accurate core count more than 12 or 16 cores depending on core count will not display with loading splash screen
+
+![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-cgroup-virtio/master/24-cores-even-though-splash-shows-less.png)
+
+
 
 also disabled onboard PC speaker module,
 <br>
