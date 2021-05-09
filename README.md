@@ -19,6 +19,7 @@ depmod -a
 then either dracut -f or mkinitrd /boot/initramfs-5.11.6-5.11.6-c4pt000-expSEHDsec.img 5.11.6-5.11.6-c4pt000-expSEHDsec
 followed by placing System.map into /boot
 cp -rf boot/vmlinuz-5.11.6-5.11.6-c4pt000-expSEHDsec /boot
+cp -rf boot/System.map-5.11.6-5.11.6-c4pt000-expSEHDsec /boot
 
 and or either re running rpm -Uvh --force --nodeps kernel-5.11.6-5.11.6-c4pt000-expSEHDsec.rpm
 
