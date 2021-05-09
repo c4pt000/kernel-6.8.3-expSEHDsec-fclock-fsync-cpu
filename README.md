@@ -1,3 +1,27 @@
+
+* packages might be difficult to install as rpms for some,
+
+```
+need to rpm -Uvh --force --nodeps each of the three RPMS, kernel, kernel-headers, kernel-devel 
+
+run rpm2cpio kernel, kernel-headers kernel-devel into a temp directory e.g. extract-kernel
+with rpm2cpio kernel.rpm | cpio -idmv
+also need to grab linux-5.11.6.tar.xz(only) and extract to /opt 
+then cd /opt/linux-5.11.6
+cp -rf dirof/extract-kernel/boot/config-5.11.6-5.11.6-c4pt000-expSEHDsec .config
+
+(to generate modules.dep in /usr/lib/modules/5.11.6-expSEHDsec
+make -j24 modules
+make -j24 modules_install
+depmod -a
+then either dracut -f or mkinitrd /boot/initramfs-5.11.6-5.11.6-c4pt000-expSEHDsec.img 5.11.6-5.11.6-c4pt000-expSEHDsec
+followed by placing System.map into /boot
+and or either re running rpm -Uvh --force --nodeps kernel-5.11.6-5.11.6-c4pt000-expSEHDsec.rpm
+grub2-mkconfig (or grub2-update)
+```
+
+
+
 # current kernel recommended to build inside of docker containers for most projects whether they are c++ projects or based on other languages due to newer security functions enabled with spinlocks, mutex, stack hardening, and other glibc compiler protection it is recommened to build in docker guest environments for isolated builds to build the code seperate from the host by using working data directories to a docker guest, see the following :
 
 * docker for graphical IDEs, use:
