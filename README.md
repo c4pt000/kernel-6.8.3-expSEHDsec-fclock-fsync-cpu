@@ -21,7 +21,12 @@ followed by placing System.map into /boot
 cp -rf boot/vmlinuz-5.11.6-5.11.6-c4pt000-expSEHDsec /boot
 
 and or either re running rpm -Uvh --force --nodeps kernel-5.11.6-5.11.6-c4pt000-expSEHDsec.rpm
+
+change /etc/default/grub to GRUB_ENABLE_BLSCFG=false
+
 grub2-mkconfig (or grub2-update)
+
+
 ```
 
 
