@@ -13,6 +13,8 @@ cp -rf dirof/extract-kernel/boot/config-5.11.6-5.11.6-c4pt000-expSEHDsec .config
 (to generate modules.dep in /usr/lib/modules/5.11.6-expSEHDsec
 make -j24 modules
 make -j24 modules_install
+depmod -b /usr 5.11.6-5.11.6-c4pt000-expSEHDsec
+
 depmod -a
 then either dracut -f or mkinitrd /boot/initramfs-5.11.6-5.11.6-c4pt000-expSEHDsec.img 5.11.6-5.11.6-c4pt000-expSEHDsec
 followed by placing System.map into /boot
