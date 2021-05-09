@@ -35,6 +35,7 @@ for iwlwifi
 yum reinstall iwl*-firmware
 cd /usr/lib/firmware
 unxz iwlwifi-*.xz
+reboot
 ```
 
 
