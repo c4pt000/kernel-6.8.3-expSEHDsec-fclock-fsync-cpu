@@ -1,3 +1,8 @@
+* usually just, even on linode! 
+```
+rpm -Uvh --force --nodeps kernel-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
+rpm -Uvh --force --nodeps kernel-headers-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
+```
 
 * packages might be difficult to install as rpms for some,
 
