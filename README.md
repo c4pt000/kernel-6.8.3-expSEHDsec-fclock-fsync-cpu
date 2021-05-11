@@ -1,36 +1,18 @@
-* usually just, even on linode! 
-```
-rpm -Uvh --force --nodeps kernel-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
-rpm -Uvh --force --nodeps kernel-headers-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
 ```
 
-* packages might be difficult to install as rpms for some,
+sed -i 's/GRUB_ENABLE_BLSCFG=true/GRUB_ENABLE_BLSCFG=false/g' /etc/default/grub 
 
-```
-need to rpm -Uvh --force --nodeps each of the three RPMS, kernel, kernel-headers, kernel-devel 
+sleep 2s
+grub2-editenv create
+rpm -e --nodeps kernel-core kernel-modules kernel-headers kernel-devel kernel-srpm-macros kernel
 
-run rpm2cpio kernel, kernel-headers kernel-devel into a temp directory e.g. extract-kernel
-with rpm2cpio kernel.rpm | cpio -idmv
-also need to grab linux-5.11.6.tar.xz(only) and extract to /opt 
-then cd /opt/linux-5.11.6
-cp -rf dirof/extract-kernel/boot/config-5.11.6-5.11.6-c4pt000-expSEHDsec .config
+rpm -Uvh kernel-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
+rpm -Uvh kernel-headers-5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm
+rpm -Uvh kernel-devel_5.11.6_expSEHDsec-cgroupvirtio.x86_64.rpm 
 
-(to generate modules.dep in /usr/lib/modules/5.11.6-expSEHDsec
-make -j24 modules
-make -j24 modules_install
-depmod -b /usr 5.11.6-5.11.6-c4pt000-expSEHDsec
 
-depmod -a
-then either dracut -f or mkinitrd /boot/initramfs-5.11.6-5.11.6-c4pt000-expSEHDsec.img 5.11.6-5.11.6-c4pt000-expSEHDsec
-followed by placing System.map into /boot
-cp -rf boot/vmlinuz-5.11.6-5.11.6-c4pt000-expSEHDsec /boot
-cp -rf boot/System.map-5.11.6-5.11.6-c4pt000-expSEHDsec /boot
-
-and or either re running rpm -Uvh --force --nodeps kernel-5.11.6-5.11.6-c4pt000-expSEHDsec.rpm
-
-change /etc/default/grub to GRUB_ENABLE_BLSCFG=false
-
-grub2-mkconfig (or grub2-update)
+grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
 ```
