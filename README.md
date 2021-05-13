@@ -1,8 +1,10 @@
-* for HAXM
+* for HAXM 05-13-2021
 
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/releases/tag/haxm-experimental
 
 https://github.com/c4pt000/haxm
+
+https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/config-5.11.6-HAXM-expSEHDsec-c4pt000
 
 ```
 
