@@ -78,6 +78,7 @@ from terminal
 
 spctl --master-disable
 ```
+"details"
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/apple-system-pref.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/details-system-pref.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/restart-HAXM-system-pref.png)
