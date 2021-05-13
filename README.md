@@ -19,6 +19,8 @@ https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS.py
 ```
 yum install virt-manager qemu ovmf etc
 
+https://github.com/c4pt000/OSX-KVM
+
 Fetch macOS installer.
 
 ./fetch-macOS-v2.py
