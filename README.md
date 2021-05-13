@@ -48,6 +48,10 @@ options vfio_iommu_type1 allow_unsafe_interrupts=1
 
 
 ```
+changes to /etc/modprobe.d/kvm.conf
+```
+mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDsec-c4pt000 --force
+```
 # disabling kvm_intel nested=1 will disable running docker inside of docker
 
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/nested-KVM-android-sdk.png)
