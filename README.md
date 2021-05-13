@@ -14,8 +14,35 @@ for macOS bigSur vt-x
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/macOS-bigSur.xml-VT-X-adjust-accordingly.xml
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/master/OPENCORE.img.tar.gz
 
+https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS.py
+
 ```
 yum install virt-manager qemu ovmf etc
+
+Fetch macOS installer.
+
+./fetch-macOS-v2.py
+ATTENTION: Installing Big Sur is NOT recommended at this time, unless you are a Hackintosh developer! Let the Big Sur setup sit at the Country Selection screen and other similar places for a while ;)
+
+You can choose your desired macOS version here. After executing this step, you should have the BaseSystem.dmg file in the current folder.
+
+Sample run:
+
+$ ./fetch-macOS-v2.py
+1. High Sierra (10.13)
+2. Mojave (10.14)
+3. Catalina (10.15) - RECOMMENDED
+4. Latest (Big Sur - 11)
+
+Choose a product to download (1-4): 3
+Note: Modern NVIDIA GPUs are supported on HighSierra but not on later versions.
+
+Convert the downloaded BaseSystem.dmg file into the BaseSystem.img file.
+
+qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+Create a virtual HDD image where macOS will be installed. If you change the name of the disk image from mac_hdd.img to something else, the boot scripts will need to be updated to point to the new image name.
+
+qemu-img create -f qcow2 mac_hdd_ng.img 128G
 ```
 
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu.png)
