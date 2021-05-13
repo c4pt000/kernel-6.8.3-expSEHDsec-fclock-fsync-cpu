@@ -72,6 +72,19 @@ Create a virtual HDD image where macOS will be installed. If you change the name
 qemu-img create -f qcow2 mac_hdd_ng.img 128G
 ```
 
+# HAXM macOS bigSur qemu-kvm
+```
+from terminal
+
+spctl --master-disable
+```
+![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/apple-system-pref.png)
+![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/details-system-pref.png)
+![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/restart-HAXM-system-pref.png)
+
+
+
+<br>
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu-info.png)
 
