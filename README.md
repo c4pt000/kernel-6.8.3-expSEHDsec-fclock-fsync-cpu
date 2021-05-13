@@ -9,6 +9,15 @@ https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-v
 ```
 modprobe haxm
 ```
+
+for macOS bigSur vt-x
+https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/macOS-bigSur.xml-VT-X-adjust-accordingly.xml
+https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/master/OPENCORE.img.tar.gz
+
+```
+yum install virt-manager qemu ovmf etc
+```
+
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu-info.png)
 
