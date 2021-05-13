@@ -7,6 +7,12 @@ https://github.com/c4pt000/haxm
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/config-5.11.6-HAXM-expSEHDsec-c4pt000
 
 ```
+modprobe haxm
+```
+![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu.png)
+![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu-info.png)
+
+```
 
 sed -i 's/GRUB_ENABLE_BLSCFG=true/GRUB_ENABLE_BLSCFG=false/g' /etc/default/grub 
 
