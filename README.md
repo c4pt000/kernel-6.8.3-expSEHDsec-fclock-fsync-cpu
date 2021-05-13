@@ -33,16 +33,11 @@ cat /etc/modprobe.d/kvm.conf
 ### Set these options to enable nested virtualization
 ###
 
-options kvm_intel nested=0
+
 options kvm ignore_msrs=y
+options kvm_intel nested=1
 
-
-#nested will disable Android Sdk avdmanager
-#options kvm_intel nested=1
 #options kvm_amd nested=1
-
-
-
 
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 
