@@ -15,6 +15,31 @@ https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-v
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/master/OPENCORE.img.tar.gz
 
 https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS.py
+
+
+requires /etc/default/grub similar
+
+iommu=pt intel_iommu=on UUIDHERE rd.lvm-here-etc end of line -> rhgb vga=792 rd.driver.blacklist=nouveau vfio pci.ids=8086:yourid pcie_acs_override=downstream,multifunction"
+
+
+
+cat /etc/modprobe.d/kvm.conf 
+###
+### This configuration file was provided by the qemu package.
+### Feel free to update as needed.
+###
+
+###
+### Set these options to enable nested virtualization
+###
+
+options kvm_intel nested=1
+#options kvm_amd nested=1
+options kvm ignore_msrs=y
+
+options vfio_iommu_type1 allow_unsafe_interrupts=1
+
+
 ```
 ```
 yum install virt-manager qemu ovmf etc
