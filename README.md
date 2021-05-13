@@ -85,7 +85,7 @@ spctl --master-disable
 
 
 
-<br>
+
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/haxm/master/HAXM-virt-make-menu-info.png)
 
