@@ -33,7 +33,7 @@ cat /etc/modprobe.d/kvm.conf
 ### Set these options to enable nested virtualization
 ###
 
-options kvm_intel
+options kvm_intel nested=0
 options kvm ignore_msrs=y
 
 
