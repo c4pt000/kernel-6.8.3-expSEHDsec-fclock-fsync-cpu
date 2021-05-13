@@ -1,3 +1,9 @@
+* for HAXM
+
+https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/releases/tag/haxm-experimental
+
+https://github.com/c4pt000/haxm
+
 ```
 
 sed -i 's/GRUB_ENABLE_BLSCFG=true/GRUB_ENABLE_BLSCFG=false/g' /etc/default/grub 
