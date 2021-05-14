@@ -122,6 +122,12 @@ for iwlwifi
 yum reinstall iwl*-firmware
 cd /usr/lib/firmware
 unxz iwlwifi-*.xz
+cd /usr/lib
+cp -rf firmware /lib/
+rmmod -f iwlwifi
+modprobe iwlwifi
+
+or
 reboot
 ```
 
