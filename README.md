@@ -1,3 +1,32 @@
+```
+manual install of RPMs
+
+rpm -Uvh --force kernel-5.11.6_HAXM_expSEHDsec_c4pt000-1.x86_64.rpm 
+rpm -Uvh --force kernel-devel-5.11.6_HAXM_expSEHDsec_c4pt000-1.x86_64.rpm 
+rpm -Uvh --force kernel-headers-5.11.6_HAXM_expSEHDsec_c4pt000-1.x86_64.rpm 
+
+rpm2cpio kernel-5.11.6_HAXM_expSEHDsec_c4pt000-1.x86_64.rpm | cpio -idmv
+
+cp -rf boot/config-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
+cp -rf boot/vmlinuz-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
+cp -rf boot/System.map-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
+depmod -a
+mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDsec-c4pt000 --force
+
+
+
+
+/etc/default/grub
+------------------
+GRUB_CMDLINE_LINUX="iommu=pt intel_iommu=on ..........UUIDstuffhere......... rhgb vga=792 cgroup_enable=memory,namespace,blkio systemd.unified_cgroup_hierarchy=1 pcie_acs_override=downstream,multifunction"
+
+
+grub2-mkconfig -o /boot/grub2/grub.cfg 
+grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+
+
+```
+
 * 05-14-2021
 
 # use at your own risk (fprint and xscreensaver + sudo enabled fprint login)
