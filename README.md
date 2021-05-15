@@ -1,14 +1,17 @@
 * 05-14-2021
 
-wip** fingerprint support VFS495 fingerprint usb module
-<br>
-https://github.com/c4pt000/Validity-sensors-fprint-demo-fingerprint-gui-biometric-fedora
-<br>
+# use at your own risk (fprint and xscreensaver + sudo enabled fprint login)
+```
+figure wip as done, buggy driver support, (but working stability) xscreensaver + sudo fingerprint autologin -> working with a restart-fingerprint.sh script when needed, requires fprint_demo to make a fingerprint to enroll as user and should enable root?
 
-wip** xscreensaver fingerprint support
-<br>
+# wip** fingerprint support VFS495 fingerprint usb module
+
+https://github.com/c4pt000/Validity-sensors-fprint-demo-fingerprint-gui-biometric-fedora
+
+# wip** xscreensaver fingerprint support
+
 https://github.com/c4pt000/xscreensaver-fingerprint-atomic
-<br>
+```
 
 * for HAXM 05-13-2021
 <br>
