@@ -10,7 +10,7 @@ https://github.com/c4pt000/Validity-sensors-fprint-demo-fingerprint-gui-biometri
 
 # wip** xscreensaver fingerprint support
 
-https://github.com/c4pt000/xscreensaver-fingerprint-atomic
+https://github.com/c4pt000/xscreensaver-fingerprint-atomic "see customization to "SBall screensaver as Atomic"
 ```
 
 * for HAXM 05-13-2021
