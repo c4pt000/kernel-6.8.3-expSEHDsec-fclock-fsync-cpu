@@ -1,20 +1,25 @@
 * 05-14-2021
 
 wip** fingerprint support VFS495 fingerprint usb module
+<br>
 https://github.com/c4pt000/Validity-sensors-fprint-demo-fingerprint-gui-biometric-fedora
-
+<br>
 
 wip** xscreensaver fingerprint support
+<br>
 https://github.com/c4pt000/xscreensaver-fingerprint-atomic
+<br>
 
 * for HAXM 05-13-2021
+<br>
 
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/releases/tag/haxm-experimental
-
+<br>
 https://github.com/c4pt000/haxm
+<br>
 
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/config-5.11.6-HAXM-expSEHDsec-c4pt000
-
+<br>
 ```
 modprobe haxm
 ```
