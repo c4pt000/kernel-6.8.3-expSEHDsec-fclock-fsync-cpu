@@ -101,9 +101,9 @@ mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDs
 
 yum install virt-manager qemu ovmf etc
 
+for ease of install bigSur
 
-
-https://github.com/c4pt000/Docker-OSX-bigSur
+# https://github.com/c4pt000/Docker-OSX-bigSur
 
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
 
