@@ -54,6 +54,10 @@ https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-v
 <br>
 ```
 modprobe haxm
+
+lsmod | grep haxm
+haxm                  241664  0
+
 ```
 ```
 for macOS bigSur vt-x
