@@ -64,8 +64,7 @@ for macOS bigSur vt-x
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/macOS-bigSur.xml-VT-X-adjust-accordingly.xml
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/master/OPENCORE.img.tar.gz
 
-https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS.py
-
+wget https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS-v2.py
 requires /etc/default/grub similar
 
 iommu=pt intel_iommu=on UUIDHERE rd.lvm-here-etc end of line -> rhgb vga=792 rd.driver.blacklist=nouveau vfio pci.ids=8086:yourid pcie_acs_override=downstream,multifunction"
