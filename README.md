@@ -66,7 +66,6 @@ https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/maste
 
 https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS.py
 
-
 requires /etc/default/grub similar
 
 iommu=pt intel_iommu=on UUIDHERE rd.lvm-here-etc end of line -> rhgb vga=792 rd.driver.blacklist=nouveau vfio pci.ids=8086:yourid pcie_acs_override=downstream,multifunction"
@@ -404,7 +403,7 @@ CONFIG_PRINTK_TIME:
 (or docker run -it -d fedora:33)
 mkdir -p /opt/kernel-build
 cd /opt/kernel-build
-yum install wget -y
+yum install -y
 wget https://raw.githubusercontent.com/c4pt000/kernel-5.11.0-expSEHDsec/master/build-kernel.sh
 source build-kernel.sh
 ```
