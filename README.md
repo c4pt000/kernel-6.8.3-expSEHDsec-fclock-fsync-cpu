@@ -97,6 +97,9 @@ mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDs
 ```
 # disabling kvm_intel nested=1 will disable running docker inside of docker
 
+# https://github.com/c4pt000/Docker-fedora-34-nested-docker
+
+
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/nested-KVM-android-sdk.png)
 
 yum install virt-manager qemu ovmf etc
