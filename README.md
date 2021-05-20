@@ -13,7 +13,7 @@ requires a reboot (review script before running it)
 
 
 
-
+working /etc/default/grub
 ```
 hugepages=4G vga=792 iommu=pt intel_iommu=on resume=/YOUR-RESUME-HERE-8a1c-b89e781144f0 rd.lvm.lv=anacYOUR-ROOTive/root rd.luks.uuid=luks-dbf3YOUR-LUKES-VOLUME-HERE rd.lvm.lv=anaconda_locaYOUR-LVM_UUID_HERE-e781144f0 rhgb pcie_acs_override=downstream vfio pci.ids=1b73:1100 
 ```
