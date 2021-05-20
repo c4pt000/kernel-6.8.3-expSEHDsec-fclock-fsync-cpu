@@ -8,9 +8,9 @@ improvements for virsh?       fedora is outdating iptables to iptables legacy to
 iptables legacy has an issue if firewalld is disabled and or with firewalld-filesystem
 requires a reboot (review script before running it)
 
-# for adjusting terminal settings, titlebar settings and other effects see komorebi, Aqua-Term, xscreensaver
+# for adjusting terminal settings, titlebar settings and other effects see komorebi, Aqua-Term, xscreensaver and disabling tool-tips
 
-https://github.com/c4pt000/Aqua-Term
+https://github.com/c4pt000/Aqua-Term <- titlebar resize and disabling tool-tips
 
 https://github.com/c4pt000/komorebi-centos-debian
 
