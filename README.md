@@ -8,6 +8,11 @@ improvements for virsh?       fedora is outdating iptables to iptables legacy to
 iptables legacy has an issue if firewalld is disabled and or with firewalld-filesystem
 requires a reboot (review script before running it)
 
+# for adjusting terminal settings, titlebar settings and other effects see komorebi and Aqua-Term
+
+https://github.com/c4pt000/Aqua-Term
+
+https://github.com/c4pt000/komorebi-centos-debian
 
 # patch for libvirtd + ufw + iptables problems with fedora 34
 
