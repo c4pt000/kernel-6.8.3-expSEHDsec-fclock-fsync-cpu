@@ -2,11 +2,7 @@ todo: add "exfat" directly to the running kernel
 
 https://github.com/c4pt000/exfat
 
-* updates for problems with virsh net-autostart default,          virsh net-start default
 
-improvements for virsh?       fedora is outdating iptables to iptables legacy to replace it with nftables and or bpfilter
-iptables legacy has an issue if firewalld is disabled and or with firewalld-filesystem
-requires a reboot (review script before running it)
 
 # for adjusting terminal settings, titlebar settings and other effects see komorebi, Aqua-Term, xscreensaver and disabling tool-tips
 
@@ -15,6 +11,21 @@ https://github.com/c4pt000/Aqua-Term <- titlebar resize and disabling tool-tips
 https://github.com/c4pt000/komorebi-centos-debian
 
 https://github.com/c4pt000/xscreensaver-fingerprint-atomic
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+* updates for problems with virsh net-autostart default,          virsh net-start default
+
+improvements for virsh?       fedora is outdating iptables to iptables legacy to replace it with nftables and or bpfilter
+iptables legacy has an issue if firewalld is disabled and or with firewalld-filesystem
+requires a reboot (review script before running it)
 
 # patch for libvirtd + ufw + iptables problems with fedora 34
 
