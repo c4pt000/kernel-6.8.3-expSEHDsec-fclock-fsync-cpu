@@ -6,9 +6,9 @@ iptables legacy has an issue if firewalld is disabled and or with firewalld-file
 requires a reboot (review script before running it)
 
 
-* patch for libvirtd + ufw + iptables problems with fedora 34
+# patch for libvirtd + ufw + iptables problems with fedora 34
 
-# https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+* https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
 
 
