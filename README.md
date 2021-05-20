@@ -8,6 +8,7 @@ requires a reboot (review script before running it)
 
 # patch for libvirtd + ufw + iptables problems with fedora 34
 
+requires reboot after running
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
 
