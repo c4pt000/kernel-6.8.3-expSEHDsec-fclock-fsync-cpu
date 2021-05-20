@@ -1,3 +1,6 @@
+todo: add "exfat" directly to the running kernel
+
+https://github.com/c4pt000/exfat
 
 * updates for problems with virsh net-autostart default,          virsh net-start default
 
