@@ -34,6 +34,7 @@ rpm2cpio kernel-5.11.6_HAXM_expSEHDsec_c4pt000-1.x86_64.rpm | cpio -idmv
 cp -rf boot/config-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
 cp -rf boot/vmlinuz-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
 cp -rf boot/System.map-5.11.6-HAXM-expSEHDsec-c4pt000 /boot/
+cp -rf lib/modules/* /lib/modules/5.11.6-HAXM-expSEHDsec-c4pt000/
 depmod -a
 mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDsec-c4pt000 --force
 
