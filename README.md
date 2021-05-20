@@ -105,7 +105,7 @@ chroot /mnt/fedora-root
 <br>
 <br>
 
-# fixing VFS root problems with broken initram filesystem requires:
+# fixing VFS root problems with broken initramfs requires:
 * similar
 https://askubuntu.com/questions/41930/kernel-panic-not-syncing-vfs-unable-to-mount-root-fs-on-unknown-block0-0
 
