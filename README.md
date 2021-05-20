@@ -100,6 +100,25 @@ mount --rbind /sys /mnt/fedora-root/sys
 chroot /mnt/fedora-root
 ```
 
+<br>
+<br>
+<br>
+<br>
+
+# fixing VFS root problems with broken initram filesystem requires:
+* similar
+https://askubuntu.com/questions/41930/kernel-panic-not-syncing-vfs-unable-to-mount-root-fs-on-unknown-block0-0
+
+* entering root volume from recovery kernel or another working kernel with working initramfs
+* replace kernel-VERSION with your kernel-VERSION of installed kernel uname -a / ls -lah /usr/lib/modules/
+```
+depmod -a
+mkinitramfs /boot/initramfs-kernel-VERSION.img kernel-VERSION --force
+```
+<br>
+<br>
+<br>
+<br>
 
 * for HAXM 05-13-2021
 <br>
