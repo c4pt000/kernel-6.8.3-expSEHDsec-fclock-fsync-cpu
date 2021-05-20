@@ -39,11 +39,13 @@ depmod -a
 mkinitrd /boot/initramfs-5.11.6-HAXM-expSEHDsec-c4pt000.img 5.11.6-HAXM-expSEHDsec-c4pt000 --force
 
 
-systemd.unified_cgroup_hierarchy=1 might interfere with HAXM loading
+systemd.unified_cgroup_hierarchy=1 and or cgroup_enable=memory,namespace,blkio  might interfere with HAXM loading
+
+cgroup_enable=memory,namespace,blkio systemd.unified_cgroup_hierarchy=0
 
 /etc/default/grub
 ------------------
-GRUB_CMDLINE_LINUX="iommu=pt intel_iommu=on ..........UUIDstuffhere......... rhgb vga=792 cgroup_enable=memory,namespace,blkio systemd.unified_cgroup_hierarchy=0 pcie_acs_override=downstream,multifunction"
+GRUB_CMDLINE_LINUX="iommu=pt intel_iommu=on ..........UUIDstuffhere......... rhgb vga=792 pcie_acs_override=downstream,multifunction"
 
 
 grub2-mkconfig -o /boot/grub2/grub.cfg 
