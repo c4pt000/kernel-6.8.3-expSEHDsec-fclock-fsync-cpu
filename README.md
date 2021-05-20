@@ -72,6 +72,35 @@ https://github.com/c4pt000/Validity-sensors-fprint-demo-fingerprint-gui-biometri
 https://github.com/c4pt000/xscreensaver-fingerprint-atomic "see customization to "SBall screensaver as Atomic"
 ```
 
+
+# deploying a chroot recovery environment with a luks volume (skip cryptsetup for non luks volume)
+or at boot with grub init=/bin/sh rw
+
+```
+cryptsetup open /dev/mapper/fedora-root froot
+passwd:
+cryptsetup open /dev/mapper/fedora-home fhome
+passwd:
+
+mkdir /mnt/fedora-root
+mount /dev/mapper/froot /mnt/fedora-root
+mount /dev/mapper/fhome /mnt/fedora-root/fhome
+lsblk -a
+mount /dev/sda2 /mnt/fedora-root/boot            # where /dev/sda2 = /boot          2G~ volume
+mount /dev/sda1 /mnt/fedora-root/boot/efi        # where /dev/sda1 = /boot/efi      300M~ volume
+
+mount --rbind /dev /mnt/fedora-root/dev
+mount --rbind /dev/pts /mnt/fedora-root/dev/pts
+mount --rbind /proc /mnt/fedora-root/proc
+mount --rbind /tmp /mnt/fedora-root/tmp
+mount --rbind /sys /mnt/fedora-root/sys
+
+:to enter chroot environment for bash as chroot "/"
+
+chroot /mnt/fedora-root
+```
+
+
 * for HAXM 05-13-2021
 <br>
 
