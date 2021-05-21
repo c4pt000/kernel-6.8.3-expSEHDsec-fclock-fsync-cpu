@@ -33,7 +33,7 @@ requires reboot after running (ipv4 working ipv6 might be disabled)
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
 if docker has network issues internally?
-* ufw disable (and or ufw reset) -> rebuild ufw ruleset
+* ufw disable (and or ufw reset) -> rebuild "your" ufw ruleset
 * sysctl -w net.ipv4.ip_forward=1
 * systemctl restart docker
 
