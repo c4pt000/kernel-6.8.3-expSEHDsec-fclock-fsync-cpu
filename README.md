@@ -32,7 +32,8 @@ requires a reboot (review script before running it)
 requires reboot after running (ipv4 working ipv6 might be disabled)
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
-
+if docker has network issues internally?
+* sysctl -w net.ipv4.ip_forward=1
 
 
 working /etc/default/grub
