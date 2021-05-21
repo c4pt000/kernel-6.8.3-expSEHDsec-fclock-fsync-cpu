@@ -34,7 +34,7 @@ requires reboot after running (ipv4 working ipv6 might be disabled)
 
 if docker has network issues internally?
 * sysctl -w net.ipv4.ip_forward=1
-
+* systemctl restart docker
 
 working /etc/default/grub
 ```
