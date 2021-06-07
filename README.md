@@ -2,13 +2,21 @@
 * added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
 
 ```
-┌─[root@fedora]─[/home/c4pt/Desktop/CURRENT-expSEHDsec-HAXM+docker+cgroup]
-└──╼ #cat config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep RADEON
-# CONFIG_DRM_RADEON is not set
+┌─[root@fedora]─[/opt]
+└──╼ #cat /boot/config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep RADEON
+CONFIG_DRM_RADEON=m
+CONFIG_DRM_RADEON_USERPTR=y
 # CONFIG_FB_RADEON is not set
-┌─[root@fedora]─[/home/c4pt/Desktop/CURRENT-expSEHDsec-HAXM+docker+cgroup]
-└──╼ #cat config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep AMDGPU
-# CONFIG_DRM_AMDGPU is not set
+
+
+┌─[root@fedora]─[/opt]
+└──╼ #cat /boot/config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep AMDGPU
+CONFIG_DRM_AMDGPU=m
+# CONFIG_DRM_AMDGPU_SI is not set
+# CONFIG_DRM_AMDGPU_CIK is not set
+CONFIG_DRM_AMDGPU_USERPTR=y
+CONFIG_DRM_AMDGPU_GART_DEBUGFS=y
+
 ```
 
 
