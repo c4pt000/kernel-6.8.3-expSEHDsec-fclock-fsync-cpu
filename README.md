@@ -19,6 +19,15 @@ CONFIG_DRM_AMDGPU_GART_DEBUGFS=y
 
 ```
 
+```
+rpm -e --nodeps kernel kernel-headers kernel-devel
+
+yum install kernel-5.11.6_HAXM_expSEHDsec_c4pt000_amdNV-1.x86_64.rpm -y
+yum install kernel-headers-5.11.6_HAXM_expSEHDsec_c4pt000_amdNV-1.x86_64.rpm -y
+yum install kernel-devel-5.11.6_HAXM_expSEHDsec_c4pt000_amdNV-1.x86_64.rpm -y
+
+```
+
 AMD users (amdgpu kernel driver 4.4-fglrx is over now)
 ```
 /etc/default/grub
@@ -26,7 +35,7 @@ nomodeset
 
 or
 /etc/default/grub
-radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 rd.blacklist=radeon
+radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 rd.driver.blacklist=radeon
 ```
 
 
