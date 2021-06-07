@@ -1,3 +1,17 @@
+added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
+
+```
+┌─[root@fedora]─[/home/c4pt/Desktop/CURRENT-expSEHDsec-HAXM+docker+cgroup]
+└──╼ #cat config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep RADEON
+# CONFIG_DRM_RADEON is not set
+# CONFIG_FB_RADEON is not set
+┌─[root@fedora]─[/home/c4pt/Desktop/CURRENT-expSEHDsec-HAXM+docker+cgroup]
+└──╼ #cat config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep AMDGPU
+# CONFIG_DRM_AMDGPU is not set
+```
+
+
+
 todo: add "exfat" directly to the running kernel
 
 https://github.com/c4pt000/exfat
