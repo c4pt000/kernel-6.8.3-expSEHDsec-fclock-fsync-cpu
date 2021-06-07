@@ -1,6 +1,6 @@
 * 05-06-2021
 * added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
-
+^ still WIP** stuck on EFI framebuffer for radeon/amdgpu
 ```
 ┌─[root@fedora]─[/opt]
 └──╼ #cat /boot/config-5.11.6-HAXM-expSEHDsec-c4pt000 | grep RADEON
