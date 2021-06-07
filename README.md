@@ -19,6 +19,15 @@ CONFIG_DRM_AMDGPU_GART_DEBUGFS=y
 
 ```
 
+AMD users (amdgpu kernel driver 4.4-fglrx is over now)
+```
+/etc/default/grub
+nomodeset
+
+or
+/etc/default/grub
+radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 modprobe.blacklist=radeon
+```
 
 
 todo: add "exfat" directly to the running kernel
