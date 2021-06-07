@@ -1,4 +1,5 @@
-added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
+* 05-06-2021
+* added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
 
 ```
 ┌─[root@fedora]─[/home/c4pt/Desktop/CURRENT-expSEHDsec-HAXM+docker+cgroup]
