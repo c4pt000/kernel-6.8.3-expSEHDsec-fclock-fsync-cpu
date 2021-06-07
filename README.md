@@ -26,7 +26,7 @@ nomodeset
 
 or
 /etc/default/grub
-radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 modprobe.blacklist=radeon
+radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 rd.blacklist=radeon
 ```
 
 
