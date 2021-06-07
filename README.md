@@ -65,7 +65,7 @@ working /etc/default/grub
 hugepages=4G vga=792 iommu=pt intel_iommu=on resume=/YOUR-RESUME-HERE-8a1c-b89e781144f0 \
 rd.lvm.lv=anacYOUR-ROOTive/root rd.luks.uuid=luks-dbf3YOUR-LUKES-VOLUME-HERE \
 rd.lvm.lv=anaconda_locaYOUR-LVM_UUID_HERE-e781144f0 \
-rhgb pcie_acs_override=downstream vfio pci.ids=1b73:1100 
+rhgb pcie_acs_override=downstream  vfio-pci.id 1b73:1100 
 ```
 
 ```
@@ -188,7 +188,7 @@ https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/raw/maste
 wget https://raw.githubusercontent.com/c4pt000/OSX-KVM/master/fetch-macOS-v2.py
 requires /etc/default/grub similar
 
-iommu=pt intel_iommu=on UUIDHERE rd.lvm-here-etc end of line -> rhgb vga=792 rd.driver.blacklist=nouveau vfio pci.ids=8086:yourid pcie_acs_override=downstream,multifunction"
+iommu=pt intel_iommu=on UUIDHERE rd.lvm-here-etc end of line -> rhgb vga=792 rd.driver.blacklist=nouveau vfio-pci.ids 8086:yourid pcie_acs_override=downstream,multifunction"
 
 
 
