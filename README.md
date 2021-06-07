@@ -28,14 +28,14 @@ yum install kernel-devel-5.11.6_HAXM_expSEHDsec_c4pt000_amdNV-1.x86_64.rpm -y
 
 ```
 
-AMD users (amdgpu kernel driver 4.4-fglrx is over now)
+AMD users (amdgpu kernel driver 4.4-fglrx is over now) without "amdgpu" installed regular nouveau/radeon
 ```
 /etc/default/grub
 nomodeset
 
 or
 /etc/default/grub
-radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 rd.driver.blacklist=radeon
+radeon.si_support=0 radeon.cik_support=0 amdgpu.si_support=1 amdgpu.cik_support=1 rd.driver.blacklist=radeon nomodeset
 ```
 
 
