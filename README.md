@@ -1,3 +1,8 @@
+* 06-12-2021
+
+# LINODE GPU CLUSTER script Fedora 34
+https://raw.githubusercontent.com/c4pt000/radioCOIN/main/LINODE-GPU-CLUSTER-script-FEDORA-34
+
 * 05-06-2021
 * added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
 ^ still WIP** stuck on EFI framebuffer for radeon/amdgpu
