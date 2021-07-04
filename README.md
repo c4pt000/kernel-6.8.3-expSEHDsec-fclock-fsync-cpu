@@ -1,3 +1,8 @@
+* 07-04-2021
+added BLUEZ-0bda:8771-Realtek-rtl8761b_fw-installer.sh to install realtek 0bda:8771 usb bluetooth (install, unplug , replug)
+```
+https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd/master/BLUEZ-0bda%3A8771-Realtek-rtl8761b_fw-installer.sh
+```
 * 06-12-2021
 
 # LINODE GPU CLUSTER script Fedora 34
