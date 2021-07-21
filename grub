@@ -3,7 +3,7 @@ GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
 GRUB_DISABLE_SUBMENU=true
 GRUB_TERMINAL_OUTPUT="console"
-GRUB_CMDLINE_LINUX="hugepages=4G crashkernel=auto rd.lvm.lv=centos/02 rd.luks.uuid=luks-e5aba841-7b9b-406a-83b9-8b01eaf22fe4 rd.lvm.lv=centos/01 rd.luks.uuid=luks-2a021232-0451-47a0-8fdc-d72e0602d2b3 rhgb iommu=pt intel_iommu=on vfio pci.ids=1b73:1100 pcie_acs_override=downstream vga=0x346 rd.driver.pre=fglrx rd.driver.pre=mt7610u_sta "
+GRUB_CMDLINE_LINUX="hugepages=4G crashkernel=auto systemd.unified_cgroup_hierarchy=1 rd.lvm.lv=centos/02 rd.luks.uuid=luks-e5aba841-7b9b-406a-83b9-8b01eaf22fe4 rd.lvm.lv=centos/01 rd.luks.uuid=luks-2a021232-0451-47a0-8fdc-d72e0602d2b3 rhgb iommu=pt intel_iommu=on vfio pci.ids=1b73:1100 pcie_acs_override=downstream vga=0x346 rd.driver.pre=fglrx rd.driver.pre=mt7610u_sta "
 GRUB_DISABLE_RECOVERY="true"
 
 
