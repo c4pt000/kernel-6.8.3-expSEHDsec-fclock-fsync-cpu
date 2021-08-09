@@ -6,6 +6,7 @@ echo '*****REVIEW SCRIPT, SCRIPT WILL PAUSE FOR 5 SECONDS CRTL-C to review SCRIP
 sleep 5s
 setenforce 0
 sleep 1s
+yum install libvirt-client -y
 yum install network-scripts-10.09-1.fc34.x86_64 -y
 yum install iptables-utils-1.8.7-7.fc34.x86_64 -y
 yum install iptables-compat-1.8.7-7.fc34.x86_64 -y
