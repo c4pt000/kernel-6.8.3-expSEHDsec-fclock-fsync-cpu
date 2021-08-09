@@ -50,4 +50,4 @@ ldconfig
 set enforce 1
 ausearch -c 'iptables' --raw | audit2allow -M my-iptables
 semodule -X 300 -i my-iptables.pp
-yum install NetworkManager-tui-1:1.30.4-1.fc34.x86_64 -y
+yum install NetworkManager-tui -y
