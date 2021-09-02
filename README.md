@@ -1,3 +1,9 @@
+
+* 09-02-2021
+update for ELAN touchpad support with newer HP laptops core i3
+
+https://drive.google.com/file/d/1AiLHkRJ6liDo5f9XVB-yLMtRa-disa2K/view?usp=sharing
+
 * 07-04-2021
 added BLUEZ-0bda:8771-Realtek-rtl8761b_fw-installer.sh to install realtek 0bda:8771 usb bluetooth (install, unplug , replug)
 ```
