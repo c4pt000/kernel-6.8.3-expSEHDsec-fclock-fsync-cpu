@@ -2,6 +2,10 @@
 * 09-02-2021
 # update for ELAN touchpad support with newer HP laptops core i3
 
+https://github.com/c4pt000/rtk_wifi_driver_rtl8822ce
+
+RTL8822CE -> newer hp laptops 802.11ac
+
 https://drive.google.com/file/d/1AiLHkRJ6liDo5f9XVB-yLMtRa-disa2K/view?usp=sharing
 
 * 07-04-2021
