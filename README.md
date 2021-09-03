@@ -1,6 +1,8 @@
 
 * 09-02-2021
 # update for ELAN touchpad support with newer HP laptops core i3
+https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd/master/IMG_20210831_213455971.jpg
+
 https://drive.google.com/file/d/1AiLHkRJ6liDo5f9XVB-yLMtRa-disa2K/view?usp=sharing
 
 
