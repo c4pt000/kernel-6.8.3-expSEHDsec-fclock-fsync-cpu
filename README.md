@@ -1211,10 +1211,6 @@ patched for 4.4,
 <br>
 
 
-f34
-/usr/share/backgrounds/
-classic solaris 10 / opensolaris CDE login wallpaper
-https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio/master/default.png
 
 
 
