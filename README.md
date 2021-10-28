@@ -2,6 +2,9 @@
 # readded RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
 # delayed from the kernel changing slightly from 4.4.167 to 5.11 also the changes to RTL8812au which created a problem as a conflict between other realtek modules due to the hardware abstraction layer source code which is part of rtw88_8822ce and rtl8812au drivers
 
+* for txpower functions of the rtl8812au see the included file from notes on kali linux and the 8812au.conf file located in this repo
+![adjusting txpower range on the rtl8812au](https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/blob/master/How%20to%20increase%20TX-Power%20of%20Wi-Fi%20adapters%20in%20Kali%20Linux%20in%202021%20-%20Ethical%20hacking%20and%20penetration%20testing.pdf)
+
 * 09-02-2021
 # update for ELAN touchpad support with newer HP laptops core i3
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd/master/IMG_20210831_213455971.jpg
