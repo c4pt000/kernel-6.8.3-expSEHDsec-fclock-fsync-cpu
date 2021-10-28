@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-v
 # LINODE GPU CLUSTER script Fedora 34
 https://github.com/c4pt000/linode-GPU-bitcoin-dogecoin-RECOVER-wallet.dat-passphrase_or_private_key_decrypt-hashcat
 
-https://raw.githubusercontent.com/c4pt000/radioCOIN/main/LINODE-GPU-CLUSTER-script-FEDORA-34
+https://raw.githubusercontent.com/c4pt000/radiocoin/master/BUILD_SCRIPTS/LINODE-NO_CUSTOM_KERNEL_GPU-CLUSTER-script-FEDORA-34
 
 * 05-06-2021
 * added better support for AMD? by removing alot of the framebuffer stuff for RADEON, AMDGPU
