@@ -2,6 +2,13 @@
 # readded RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
 # delayed from the kernel changing slightly from 4.4.167 to 5.11 also the changes to RTL8812au which created a problem as a conflict between other realtek modules due to the hardware abstraction layer source code which is part of rtw88_8822ce and rtl8812au drivers
 
+# rtw88_8822ce requires manually building module (again)
+```
+cd /usr/src/kernels/5.11.6-HAXM-expSEHDsec-c4pt000-amdNV-kaliwifi88/drivers/net/wireless/realtek/rtw88
+make -j24
+make -j24 install
+modprobe rtl88x2ce
+```
 * for txpower functions of the rtl8812au see the included file from notes on kali linux and the 8812au.conf file located in this repo
 ![adjusting txpower range on the rtl8812au](https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/blob/master/How%20to%20increase%20TX-Power%20of%20Wi-Fi%20adapters%20in%20Kali%20Linux%20in%202021%20-%20Ethical%20hacking%20and%20penetration%20testing.pdf)
 
