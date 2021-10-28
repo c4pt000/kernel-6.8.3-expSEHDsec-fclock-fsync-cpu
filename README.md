@@ -1,5 +1,7 @@
 * 10-28-2021
-# added RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
+# readded RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
+# delayed from the kernel changing slightly from 4.4.167 to 5.11 also the changes to RTL8812au which created a problem as a conflict between other realtek modules due to the hardware abstraction layer source code which is part of rtw88_8822ce and rtl8812au drivers
+
 * 09-02-2021
 # update for ELAN touchpad support with newer HP laptops core i3
 https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd/master/IMG_20210831_213455971.jpg
