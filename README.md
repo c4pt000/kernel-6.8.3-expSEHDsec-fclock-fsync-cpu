@@ -283,9 +283,9 @@ yum install virt-manager qemu ovmf etc
 
 for ease of install bigSur
 
-# https://github.com/c4pt000/Docker-OSX-bigSur
+# https://github.com/c4pt000/Docker-monterey
 
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-3.png)
 
 ```
 
