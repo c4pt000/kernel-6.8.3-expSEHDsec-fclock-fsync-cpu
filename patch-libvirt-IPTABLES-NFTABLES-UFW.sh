@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "fix ufw after a reboot https://devtidbits.com/2019/07/31/ufw-service-not-loading-after-a-reboot/"
 echo 'Fedora 34 users mostly for virsh and nftable support'
 echo 'virsh net-autostart && virsh net-start replace and fix for fedora outdating "iptables" for nftables'
 echo '*****REVIEW SCRIPT, SCRIPT WILL PAUSE FOR 5 SECONDS CRTL-C to review SCRIPT********'
