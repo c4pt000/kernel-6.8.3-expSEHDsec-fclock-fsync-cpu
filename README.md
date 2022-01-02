@@ -1,3 +1,6 @@
+# 01-01-2022
+# modified rtl88x2ce or modified rtw88_882ce will panic running system when wifi cant fully connect with 1 bar of connectivity
+
 * 10-28-2021
 # readded RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
 # delayed from the kernel changing slightly from 4.4.167 to 5.11 also the changes to RTL8812au which created a problem as a conflict between other realtek modules due to the hardware abstraction layer source code which is part of rtw88_8822ce and rtl8812au drivers
