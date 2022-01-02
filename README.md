@@ -1,5 +1,16 @@
 # 01-01-2022
 # modified rtl88x2ce or modified rtw88_882ce will panic running system when wifi cant fully connect with 1 bar of connectivity
+# new
+```
+added scripts to enable monitor mode and managed mode to be placed into /usr/bin
+WHEN your WIFI card is labeled "wlo1" with iwconfig
+IF YOUR CARD *IS NOT* labeled "wlo1" adjust accordingly 
+to be placed into /usr/bin
+set-managed-mode.sh
+set-monitor-mode.sh
+```
+
+
 
 * 10-28-2021
 # readded RTL8812au (kali wifi driver known for realtek wifi high-powered usb cards) directly to the kernel as a running module at boot
