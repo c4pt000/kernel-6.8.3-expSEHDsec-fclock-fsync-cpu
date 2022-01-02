@@ -1,13 +1,16 @@
 # 01-01-2022
-# modified rtl88x2ce or modified rtw88_882ce will panic running system when wifi cant fully connect with 1 bar of connectivity
+# modified rtl88x2ce or modified rtw88_882ce will panic running system when wifi cant fully connect with 1 bar of connectivity *WIP
 # new
 ```
 added scripts to enable monitor mode and managed mode to be placed into /usr/bin
 WHEN your WIFI card is labeled "wlo1" with iwconfig
 IF YOUR CARD *IS NOT* labeled "wlo1" adjust accordingly 
 to be placed into /usr/bin
-set-managed-mode.sh
-set-monitor-mode.sh
+cp -rf set-managed-mode.sh
+cp -rf set-monitor-mode.sh
+chmod +x /usr/bin/set-managed-mode.sh
+chmod +x /usr/bin/set-monitor-mode.sh
+
 ```
 
 
