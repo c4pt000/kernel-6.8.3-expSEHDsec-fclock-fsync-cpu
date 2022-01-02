@@ -1,3 +1,6 @@
+# 01-02-2022
+# updated for stability issues with RTW8822CE specifically see releases (includes two scripts now for /usr/bin for switching between monitor and managed mode when card is labeled as wlo1)
+
 # 01-01-2022
 # modified rtl88x2ce or modified rtw88_882ce will panic running system when wifi cant fully connect with 1 bar of connectivity *WIP
 # new
