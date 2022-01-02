@@ -10,7 +10,7 @@ cp -rf set-managed-mode.sh
 cp -rf set-monitor-mode.sh
 chmod +x /usr/bin/set-managed-mode.sh
 chmod +x /usr/bin/set-monitor-mode.sh
-if going back to "monitor" mode is problematic it might require airmon-ng stop
+if going back to "managed" mode is problematic it might require airmon-ng stop
 
 
 airmon-ng stop wlo1mon
