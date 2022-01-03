@@ -3,6 +3,8 @@
 
 * some mobile systems might require a quick second reboot to help release the keyboard instead of having a delay for keyboard input (same as before)
 
+* https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/releases/tag/haxm-experimental
+
 * sometimes the RPM doesnt unpack correctly to /boot to create initramfs when overwriting the exisitng installed kernel ( rpm -qa | grep kernel ) "same as before"
 
 
