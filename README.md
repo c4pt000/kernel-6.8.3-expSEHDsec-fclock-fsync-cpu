@@ -5,7 +5,7 @@
 
 * sometimes the RPM doesnt unpack correctly to /boot to create initramfs when overwriting the exisitng installed kernel ( rpm -qa | grep kernel ) "same as before"
 
-`
+````
 as before for rebuilding the initramfs to boot after " rpm -Uvh --force kernel*rpm "
 dracut -f 
 and check initramfs-5.11.6 date creation against command line "date" command
@@ -13,7 +13,7 @@ ls -lh /boot/*5.11.6*
 date
 grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
-`
+```
 
 # 01-02-2022
 # updated for stability issues with RTW8822CE specifically see releases (includes two scripts now for /usr/bin for switching between monitor and managed mode when card is labeled as wlo1)
