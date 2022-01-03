@@ -5,8 +5,10 @@
 
 * sometimes the RPM doesnt unpack correctly to /boot to create initramfs when overwriting the exisitng installed kernel ( rpm -qa | grep kernel ) "same as before"
 
-````
+
 as before for rebuilding the initramfs to boot after " rpm -Uvh --force kernel*rpm "
+
+```
 dracut -f 
 and check initramfs-5.11.6 date creation against command line "date" command
 ls -lh /boot/*5.11.6*
