@@ -4,6 +4,7 @@
 * some mobile systems might require a quick second reboot to help release the keyboard instead of having a delay for keyboard input (same as before)
 
 * sometimes the RPM doesnt unpack correctly to /boot to create initramfs when overwriting the exisitng installed kernel ( rpm -qa | grep kernel ) "same as before"
+
 `
 as before for rebuilding the initramfs to boot after " rpm -Uvh --force kernel*rpm "
 dracut -f 
