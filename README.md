@@ -1,6 +1,8 @@
 # 01-03-2022
 * a host of more drivers have been enabled for SPI programming, UART, GPIO programming (programmers), enabled more legacy gamepad joystick drivers for legacy video game consoles, (NES, SNES, TURBGFX64, PS1, PS2) attempted to add more stability with mobile systems to release the usb keyboard with encrypted filesystems for password entry (on some mobile usb keyboard vendors there is an IRQ bug which affects the keyboard with a 20-30 second delay to release the keyboard *WITH THIS KERNEL* NOT the STOCK KERNEL) compare the previous-config file with current-config file to see differences, desktop systems do not have an issue with a delay with keyboard input on initial boot (same as before), enabled more TPM vendors and touchscreen vendors, more attempts at using x509 certiifcates with integrity style secure boot when booting as UEFI secure boot, I reverted some dynamic tick clock rates and different governor frequency throttling flags back to match the stock kernel more with this current release in an attempt to iron out the delay affecting mobile usb keyboards
 
+* re-enabled NTFS write and exFAT windows file system support (again, forgot)
+
 * some mobile systems might require a quick second reboot to help release the keyboard instead of having a delay for keyboard input (same as before)
 
 * https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/releases/tag/haxm-experimental
