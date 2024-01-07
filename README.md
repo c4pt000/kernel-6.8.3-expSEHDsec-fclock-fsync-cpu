@@ -1,4 +1,4 @@
-# Fedora 34 ONLY! will not work on Fedora 39
+# Fedora 34/35 ONLY! will not work on Fedora 39
 
 
 # 01-03-2022
