@@ -1,3 +1,18 @@
+
+
+# 04-18-2024
+iptable tools
+
+```
+https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+
+https://github.com/c4pt000/mega-blocker-iptables-ipset-04-17-2024
+```
+
+
+# 6.8.2 updated for Fedora 39
+
+
 # Fedora 34/35 ONLY! will not work on Fedora 39
 
 
