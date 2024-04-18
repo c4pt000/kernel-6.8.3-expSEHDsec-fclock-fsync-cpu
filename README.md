@@ -2,6 +2,8 @@
 
 # 04-18-2024
 # firewall blocking tools UFW based and ipset based with iptables + tools
+# patch-libvirt-IPTABLES-NFTABLES-UFW.sh patches libvirtd for KVM default virsh net-autostart
+
 
 ```
 https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
