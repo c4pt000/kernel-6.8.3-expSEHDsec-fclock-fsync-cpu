@@ -16,6 +16,24 @@ https://github.com/c4pt000/mega-blocker-iptables-ipset-04-17-2024
 
 # 6.8.2 updated for Fedora 39
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # Fedora 34/35 ONLY! will not work on Fedora 39
 
