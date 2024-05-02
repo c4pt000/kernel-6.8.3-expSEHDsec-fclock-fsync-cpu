@@ -1,5 +1,5 @@
 # 05-01-2024
-# pfsense as a QEMU+KVM hardware firewall + WiFi router
+# pfsense as a hardware firewall + WiFi router running on QEMU+KVM
 # https://github.com/c4pt000/qemu-kvm-patched
 
 # 04-18-2024
