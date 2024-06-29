@@ -1,0 +1,15 @@
+nginx.conf or nginx-subserver.conf file
+
+#block garbage
+add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
+add_header X-Frame-Options "SAMEORIGIN";
+#add_header X-Frame-Options DENY;
+add_header X-Content-Type-Options nosniff;
+#add_header Content-Security-Policy "default-src 'self' www.google-analytics.com ajax.googleapis.com www.google.com google.com gstatic.com www.gstatic.com connect.facebook.net facebook.com;";
+
+add_header X-XSS-Protection "1; mode=block";
+add_header Referrer-Policy "origin";
+
+
+
+
