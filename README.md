@@ -1,3 +1,17 @@
+# 07-04-2024 working on fedora 40
+
+# ABOUT GRUB do not use these grub files directly without using your luks-id or your system wont boot
+
+#for /etc/default/grub
+
+
+
+# CHANGE FOR YOUR LUKS_ID DO NOT USE THIS ITS FOR A DIFFERENT HARD DRIVE LUKS_ID NOT IN ANYONE'S MACHINE
+
+
+https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/fedora-f40-grub
+https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/grub
+
 # 05-01-2024
 # pfsense as a hardware firewall + WiFi router running on QEMU+KVM
 # https://github.com/c4pt000/qemu-kvm-patched
