@@ -1,5 +1,5 @@
 # 07-04-2024 working on fedora 40
-# major bug in plymouth splash screen boot
+# major bug in plymouth splash screen boot with fedora 40
 
 downgrade-plymouth-fix.sh
 ```
