@@ -3,12 +3,15 @@
 
 
 # CHANGE FOR YOUR LUKS_ID DO NOT USE THIS ITS FOR A DIFFERENT HARD DRIVE LUKS_ID NOT IN ANYONE'S MACHINE
+# CUSTOMIZED OPTIONS ARE AFTER RHGB LINE
+
+
 
 GRUB_TIMEOUT=30
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
 GRUB_DISABLE_SUBMENU=true
 GRUB_TERMINAL_OUTPUT="console"
-GRUB_CMDLINE_LINUX="resume=/dev/mapper/fedora_localhost--live-swap rd.lvm.lv=fedora_localhost-live/root rd.luks.uuid=luks-6f0a1681-b26c-4715-928b-3508f45b4dd9 rd.lvm.lv=fedora_localhost-live/swap rhgb iommu=pt intel_iommu=on modprobe.blacklist=nouveau rd.driver.blacklist=nouveau vga=845"
+GRUB_CMDLINE_LINUX=".........IN YOUR /etc/default/grub/THIS LINE HAS YOUR LUKS_ID VOLUMES OR YOUR DRIVE VOLUMES......rhgb <---------- ---> this goes after rhgb ------> iommu=pt intel_iommu=on modprobe.blacklist=nouveau rd.driver.blacklist=nouveau vga=845"
 GRUB_DISABLE_RECOVERY="true"
 GRUB_ENABLE_BLSCFG=false
