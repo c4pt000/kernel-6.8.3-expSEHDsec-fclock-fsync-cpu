@@ -20,6 +20,12 @@ dnf install cryptsetup cryptsetup-libs --releasever=39 -y
 
 # update /boot for grub-script
 ```
+
+after rhgb ....
+in GRUB_CMDLINE_LINUX=                              vga=845"
+
+https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/grub
+
 grub2-mkconfig -o /boot/grub2/grub.cfg 
 grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 ```
