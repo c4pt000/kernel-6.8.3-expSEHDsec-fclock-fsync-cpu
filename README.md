@@ -1,8 +1,11 @@
-# 07-04-2024 working on fedora 40
+# 07-04-2024 working on fedora 40 MAJOR MAJOR BUG WITH LUKS AND CRYPTSETUP ON FEDORA 40 BUG IN LUKS WITH  2.7.3-1.fc40  with CRYPTSETUP AND CRYPTSETUP-LIBS
 
-MAJOR MAJOR BUG IN LUKS WITH CRYPTSETUP ON FEDORA 40
 
-FIX FOR CRYPTSETUP TO FIX LUKS
+this is the last safe working known version i was using and the bug goes away and luks is normal using this version : 2.6.1-3.fc39.x86_64 is safe and working
+
+# MAJOR MAJOR BUG IN LUKS WITH CRYPTSETUP ON FEDORA 40
+
+# FIX FOR CRYPTSETUP TO FIX LUKS
 ```
 #!/bin/sh
 rpm -qa | grep cryptsetup > remove-cryptsetup.txt
