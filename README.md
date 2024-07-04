@@ -1,5 +1,13 @@
 # 07-04-2024 working on fedora 40
 
+# update /boot for grub-script
+```
+grub2-mkconfig -o /boot/grub2/grub.cfg 
+grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+
+# changing plymouth (even for stock kernel)
+
 ```
 plymouth-set-default-theme
 
