@@ -1,5 +1,13 @@
 # 07-04-2024 working on fedora 40
 
+
+speedup for network waiting to get online before plymouth
+
+```
+cd /etc/systemd/system/network-online.target.wants
+mv NetworkManager-wait-online.service NetworkManager-wait-online.service.null
+```
+
 # ABOUT GRUB do not use these grub files directly without using your luks-id or your system wont boot
 
 #for /etc/default/grub
