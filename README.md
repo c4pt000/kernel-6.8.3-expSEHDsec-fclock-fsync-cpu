@@ -1,5 +1,20 @@
 # 07-04-2024 working on fedora 40
 
+MAJOR MAJOR BUG IN LUKS WITH CRYPTSETUP ON FEDORA 40
+
+FIX FOR CRYPTSETUP TO FIX LUKS
+```
+#!/bin/sh
+rpm -qa | grep cryptsetup > remove-cryptsetup.txt
+sed -i 's/^/rpm -e --nodeps /g' remove-cryptsetup.txt 
+chmod +x remove-cryptsetup.txt 
+./remove-cryptsetup.txt 
+
+
+
+dnf install cryptsetup cryptsetup-libs --releasever=39 -y
+```
+
 # update /boot for grub-script
 ```
 grub2-mkconfig -o /boot/grub2/grub.cfg 
