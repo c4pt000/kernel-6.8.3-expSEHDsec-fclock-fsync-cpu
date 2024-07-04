@@ -1,3 +1,10 @@
+#for /etc/default/grub
+
+
+
+# CHANGE FOR YOUR LUKS_ID DO NOT USE THIS ITS FOR A DIFFERENT HARD DRIVE LUKS_ID NOT IN ANYONE'S MACHINE
+
+
 GRUB_TIMEOUT=20
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
