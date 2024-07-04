@@ -1,5 +1,25 @@
 # 07-04-2024 working on fedora 40
 
+```
+plymouth-set-default-theme
+
+plymouth-set-default-theme --list
+bgrt
+breeze
+breeze-text
+charge
+details
+fade-in
+script
+solar
+spinfinity
+spinner
+text
+tribar
+
+
+plymouth-set-default-theme tribar -R
+```
 
 
 speedup for network waiting to get online before plymouth
