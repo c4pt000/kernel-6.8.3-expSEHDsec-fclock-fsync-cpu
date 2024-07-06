@@ -1,6 +1,6 @@
 
 # 07-04-2024 fastest linux kernel on earth currently
-
+# https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/kernel-6.8.3_c4pt000_expSEHDsec_fclock_fsync_cpu.x86_64.rpm
 [![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
 
 
