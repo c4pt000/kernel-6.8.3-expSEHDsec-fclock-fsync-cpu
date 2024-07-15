@@ -29,6 +29,13 @@ and reboot
 
 # 07-04-2024 pretty *damn* fast with increased rate of "jiffies"
 
+```
+-> include/linux/jiffies.h
+
+//super rate of jiffies beyond control of peanut butter. -c4pt
+#define USER_TICK_USEC ((100000000UL + USER_HZ/2) / USER_HZ)
+```
+
 [![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
 
 
