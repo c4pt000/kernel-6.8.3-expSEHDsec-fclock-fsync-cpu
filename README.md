@@ -14,7 +14,7 @@ https://github.com/endlessm/linux-firmware
 1) git clone this driver: https://github.com/tomaspinho/rtl8821ce
 2) Install DKMS
 3) From inside the rtl8821ce directory, run as root ./dkms-install.sh
-4) Blacklist tw88_8821ce in /etc/modprobe.d/blacklist.conf
+4) Blacklist rtw88_8821ce in /etc/modprobe.d/blacklist.conf
 
 
 ┌──(c4pt㉿kali)-[~/Downloads]
@@ -23,6 +23,8 @@ blacklist rtw88_8821ce
 blacklist rtw88_8821c
 blacklist rtw88_pci
 
+
+and reboot
 ```
 
 # 07-04-2024 fastest linux kernel on earth currently
