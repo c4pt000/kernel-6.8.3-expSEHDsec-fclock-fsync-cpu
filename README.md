@@ -1,4 +1,4 @@
-
+forgot to enable I2C_HID functions for ELAN touchpad devices ignore EVDEV=y or EVDEV=m doesnt matter it was a problem only with this kernel with I2C_HID missing functions 
 for current firmwares
 ```
 https://github.com/endlessm/linux-firmware
