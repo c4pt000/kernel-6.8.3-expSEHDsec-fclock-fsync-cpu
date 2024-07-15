@@ -34,7 +34,6 @@ and reboot
 ```
 -> include/linux/jiffies.h
 
-//super rate of jiffies beyond control of peanut butter. -c4pt
 #define USER_TICK_USEC ((100000000UL + USER_HZ/2) / USER_HZ)
 ```
 
