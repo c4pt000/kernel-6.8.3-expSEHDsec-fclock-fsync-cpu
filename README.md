@@ -2,6 +2,13 @@
 ```
 something changed with EVDEV=y instead of EVDEV=m in the stock kernel with fedora systems not with debian systems
 not allowing laptops and portable devices with synaptics PS/2 usb mouse to activate
+
+CONFIG_INPUT_EVDEV=y
+
+should be a user module
+CONFIG_INPUT_EVDEV=m
+
+not a kernel builtin module or evdev breaks
 ```
 
 
