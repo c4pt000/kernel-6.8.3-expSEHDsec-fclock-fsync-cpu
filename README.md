@@ -8,6 +8,7 @@ https://github.com/endlessm/linux-firmware
 i2c_hid_elan is now re-enabled for elan touchpad devices with mobile/laptops
 
 rtl8821ce is now enabled by default
+for problems with power saving with rtl8821ce install nl80211 with linux-libc6-dev and or remove dkms for rtl8821ce
 
 
 # 07-04-2024 fastest linux kernel on earth currently
