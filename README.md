@@ -1,20 +1,6 @@
 
-```
-something changed with EVDEV=y instead of EVDEV=m in the stock kernel with fedora systems not with debian systems
-not allowing laptops and portable devices with synaptics PS/2 usb mouse to activate
-
-CONFIG_INPUT_EVDEV=y
-
-should be a user module
-CONFIG_INPUT_EVDEV=m
-
-not a kernel builtin module or evdev breaks
-```
 
 
-to update rtl8821ce dont use my version from 4.4.0 anymore its too old for the current running 6.8.3 kernel
-
-use the authors branch directly
 
 ```
 git clone https://github.com/tomaspinho/rtl8821ce
