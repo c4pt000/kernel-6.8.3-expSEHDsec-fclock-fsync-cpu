@@ -34,7 +34,15 @@ and reboot
 ```
 -> include/linux/jiffies.h
 
-#define USER_TICK_USEC ((100000000UL + USER_HZ/2) / USER_HZ)
+#define USER_TICK_USEC ((100 000 000 UL + USER_HZ/2) / USER_HZ)
+```
+
+* increased to 250 000 000 jiffies per cycle with _122
+  
+```
+-> include/linux/jiffies.h
+
+#define USER_TICK_USEC ((250 000 000 UL + USER_HZ/2) / USER_HZ)
 ```
 
 [![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
