@@ -5,14 +5,9 @@ https://github.com/endlessm/linux-firmware
 ```
 
 
+i2c_hid_elan is now re-enabled for elan touchpad devices with mobile/laptops
 
-```
-git clone https://github.com/tomaspinho/rtl8821ce
-cd rtl8821ce
-make -j24
-make -j24 install
-modprobe 8821ce
-```
+rtl8821ce is now enabled by default
 
 
 # 07-04-2024 fastest linux kernel on earth currently
