@@ -1,4 +1,4 @@
-# update for 6.8.4 (which is still 6.8.2 running version)
+# update 07-15-2024 for 6.8.4 (which is still 6.8.2 running version)
 
 # for current firmwares
 ```
