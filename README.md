@@ -1,4 +1,10 @@
 
+```
+something changed with EVDEV=y instead of EVDEV=m in the stock kernel with fedora systems not with debian systems
+not allowing laptops and portable devices with synaptics PS/2 usb mouse to activate
+```
+
+
 to update rtl8821ce dont use my version from 4.4.0 anymore its too old for the current running 6.8.3 kernel
 
 use the authors branch directly
