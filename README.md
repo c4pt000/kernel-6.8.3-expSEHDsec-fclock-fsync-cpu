@@ -1,6 +1,6 @@
 # update 07-15-2024 for 6.8.4 (which is still 6.8.2 running version)
 
-* i have to somehow bypass kernel-time and datetime.h with ktime.h and time.h to not use jiffies.h directly keeping the datetime in system time stable will keep the processes from overlapping with even further accelerated rate of jiffies beyond 1B jiffies cycle
+* i have to somehow bypass kernel-time and datetime.h with ktime.h and time.h to not use jiffies.h directly keeping the datetime in system time stable will keep the processes from overlapping with even further accelerated rate of jiffies beyond 1B jiffies cycle since every process after PID 1 relies on datetime for the system time as a signal with other processes
 
 # for current firmwares
 ```
