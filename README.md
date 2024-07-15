@@ -1,4 +1,17 @@
 
+to update rtl8821ce dont use my version from 4.4.0 anymore its too old for the current running 6.8.3 kernel
+
+use the authors branch directly
+
+```
+git clone https://github.com/tomaspinho/rtl8821ce
+cd rtl8821ce
+make -j24
+make -j24 install
+modprobe 8821ce
+```
+
+
 # 07-04-2024 fastest linux kernel on earth currently
 # https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/kernel-6.8.3_c4pt000_expSEHDsec_fclock_fsync_cpu.x86_64.rpm
 [![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
