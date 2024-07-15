@@ -1,4 +1,8 @@
 
+for current firmwares
+```
+https://github.com/endlessm/linux-firmware
+```
 
 
 
