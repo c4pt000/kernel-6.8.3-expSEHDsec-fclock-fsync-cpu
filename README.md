@@ -1,15 +1,29 @@
-forgot to enable I2C_HID functions for ELAN touchpad devices ignore EVDEV=y or EVDEV=m doesnt matter it was a problem only with this kernel with I2C_HID missing functions 
-for current firmwares
+# update for 6.8.4 (which is still 6.8.2 running version)
+
+# for current firmwares
 ```
 https://github.com/endlessm/linux-firmware
 ```
 
 
-i2c_hid_elan is now re-enabled for elan touchpad devices with mobile/laptops
+# i2c_hid_elan is now re-enabled for elan touchpad devices with mobile/laptops
 
-rtl8821ce is now enabled by default
-for problems with power saving with rtl8821ce install nl80211 with linux-libc6-dev and or remove dkms for rtl8821ce
 
+# fixing rtl8821ce to be stable
+```
+1) git clone this driver: https://github.com/tomaspinho/rtl8821ce
+2) Install DKMS
+3) From inside the rtl8821ce directory, run as root ./dkms-install.sh
+4) Blacklist tw88_8821ce in /etc/modprobe.d/blacklist.conf
+
+
+┌──(c4pt㉿kali)-[~/Downloads]
+└─$ cat /etc/modprobe.d/blacklist.conf 
+blacklist rtw88_8821ce
+blacklist rtw88_8821c
+blacklist rtw88_pci
+
+```
 
 # 07-04-2024 fastest linux kernel on earth currently
 # https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/kernel-6.8.3_c4pt000_expSEHDsec_fclock_fsync_cpu.x86_64.rpm
