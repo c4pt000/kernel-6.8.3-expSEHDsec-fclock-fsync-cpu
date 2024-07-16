@@ -45,7 +45,7 @@ and reboot
 #define USER_TICK_USEC ((250 000 000 UL + USER_HZ/2) / USER_HZ)
 ```
 
-[![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.4-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
+[![fastest linux kernel on earth](https://github.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/releases/download/kernel-6.8.3-expSEHDsec-fsync-fcpu/fastest-kernel.png)](https://www.youtube.com/watch?v=s3pwr2LWF5U)
 
 
 # 07-04-2024 working on fedora 40 MAJOR MAJOR BUG WITH LUKS AND CRYPTSETUP ON FEDORA 40 BUG IN LUKS WITH  2.7.3-1.fc40  with CRYPTSETUP AND CRYPTSETUP-LIBS
