@@ -1,3 +1,5 @@
+
+#FIX FOR PLYMOUTH SPLASH SCREEN HITTING ESC KEY TAKES FOREVER TO REDRAW DMESG CONSOLE OUTPUT
 rpm -qa | grep plymouth > remove-plymouth.txt
 sed -i 's/^/rpm -e --nodeps /g' remove-plymouth.txt 
 chmod +x remove-plymouth.txt 
