@@ -7,7 +7,8 @@ wget https://raw.githubusercontent.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fs
 chmod +x FIX-cryptsetup-bug-with-fedora-40.sh
 chmod +x FIX-plymouth-boot-time-bug-slow-screen-fix-fedora-40.sh
 
-add excludes into dnf.conf
+add excludes into dnf.conf for plymouth and cryptsetup to pin those packages to not update
+/etc/dnf/dnf.conf
 
 [main]
 gpgcheck=True
