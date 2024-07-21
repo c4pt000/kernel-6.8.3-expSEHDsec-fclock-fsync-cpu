@@ -1,6 +1,23 @@
-# fix plymouth and cryptsetup MANDATORY
+# fix plymouth and cryptsetup MANDATORY fedora systems (deb/ubuntu not mentioned here)
 # 0.9.3 from fedora 28 stable
 # plymouth-0.9.3
+```
+wget https://raw.githubusercontent.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/master/FIX-cryptsetup-bug-with-fedora-40.sh
+wget https://raw.githubusercontent.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/master/FIX-plymouth-boot-time-bug-slow-screen-fix-fedora-40.sh
+chmod +x FIX-cryptsetup-bug-with-fedora-40.sh
+chmod +x FIX-plymouth-boot-time-bug-slow-screen-fix-fedora-40.sh
+
+add excludes into dnf.conf
+
+[main]
+gpgcheck=True
+installonly_limit=3
+clean_requirements_on_remove=True
+best=False
+skip_if_unavailable=True
+#exclude=*kernel*,f40-backgrounds*,cryptsetup*,plymouth*
+```
+
 
 # update 07-15-2024 for 6.8.4 (which is still 6.8.2 running version)
 
