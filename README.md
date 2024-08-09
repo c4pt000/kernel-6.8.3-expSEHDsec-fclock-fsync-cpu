@@ -5,6 +5,7 @@
 * https://access.redhat.com/security/cve/CVE-2024-3094
 
 ```
+checked my own version before dnf update 
 ┌─[✗]─[c4pt@fedora 08-08-2024-22:28:36] ]─[/run/media/c4pt/volume-3/opt/NEW-BITNET-CORE-70035/08-09-2024/bitnet-core]
 └──╼ $sudo rpm -qa | grep xz
 [sudo] password for c4pt: 
