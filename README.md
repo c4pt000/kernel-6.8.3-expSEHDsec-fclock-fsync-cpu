@@ -15,11 +15,21 @@ xz-devel-5.4.6-3.fc40.x86_64
 xz-lzma-compat-5.4.6-3.fc40.x86_64
 xz-libs-5.4.6-3.fc40.i686
 ```
-check debian xz
+check if debian/ubuntu xz
 ```
 dpkg -l xz*
 ```
 
+if XZ is less than 5.6.0
+
+```
+apt-mark hold xz*
+
+or nano /etc/dnf/dnf/exclude.conf
+append xz-* to end of exclude
+
+exclude=xz-*
+```
 ![s1](https://raw.githubusercontent.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/master/sshd-xz-safe-version.png)
 
 
