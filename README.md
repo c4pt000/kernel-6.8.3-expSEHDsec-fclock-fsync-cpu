@@ -1,5 +1,9 @@
 # CHECK YOUR XZ VERSION MAJOR MAJOR BUG IN SSHD WHEN XZ IS 5.6.0 or 5.6.1
-https://xeiaso.net/notes/2024/xz-vuln/
+
+* https://xeiaso.net/notes/2024/xz-vuln/
+
+* https://access.redhat.com/security/cve/CVE-2024-3094
+
 ```
 ┌─[✗]─[c4pt@fedora 08-08-2024-22:28:36] ]─[/run/media/c4pt/volume-3/opt/NEW-BITNET-CORE-70035/08-09-2024/bitnet-core]
 └──╼ $sudo rpm -qa | grep xz
@@ -11,6 +15,7 @@ xz-lzma-compat-5.4.6-3.fc40.x86_64
 xz-libs-5.4.6-3.fc40.i686
 ```
 
+![s1](https://raw.githubusercontent.com/c4pt000/kernel-6.8.3-expSEHDsec-fclock-fsync-cpu/master/sshd-xz-safe-version.png)
 
 
 # fix plymouth and cryptsetup MANDATORY fedora systems (deb/ubuntu not mentioned here)
